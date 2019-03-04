@@ -18,10 +18,10 @@
       font-family: 'Roboto', sans-serif;
       padding: 0;
       margin: 0;
-      margin-bottom: 150px;
+      margin-bottom: 100px;
     }
     .header {
-      padding: 10% 10%;
+      padding: 7% 10%;
       padding-bottom: 2%;
     }
     .content {
@@ -50,7 +50,7 @@
       bottom: 0;
       left: 0;
       right: 0;
-      height: 150px;
+      height: 100px;
       background: #121aa8;
       color: white;
       display: flex;
@@ -64,11 +64,31 @@
     a:active {
       color: #193cff;
       text-decoration: none;
+      border-bottom: 2px solid #e72363;
+    }
+    .navbar {
+      text-align: left;
+      margin-left: 10%;
+      margin-top: 1%;
+    }
+    .navbar a {
+      margin-right: 1%;
+      font-size: .7rem;
+    }
+    @media screen and (max-width: 480px) {
+      .header {
+        padding-top: 15%;
+        padding-bottom: 5%;
+      }
     }
   </style>
 </head>
 <body>
   <main>
+    <div class="navbar">
+      <a href="https://in.pycon.org/2018/" target="_blank">2018</a>
+      <a href="https://twitter.com/pyconindia" target="_blank">Twitter</a>
+    </div>
     <div class="header">
       <h1>PyCon India 2019</h1>
     </div>
@@ -88,8 +108,8 @@
       </p>
       <br>
       <p class="muted">
-        Stay tuned for further details.
-        You can reach out to us on our <a href="https://twitter.com/pyconindia" target="_blank">Twitter</a> handle.
+        Stay tuned for further details by
+        <a href="https://goo.gl/forms/GdtTebWL7mn3oKtW2" target="_blank">subscribing to our announcements.</a>
       </p>
     </div>
     <div class="footer">
