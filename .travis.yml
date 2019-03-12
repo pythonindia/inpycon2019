@@ -5,7 +5,7 @@ addons:
 script:
 - mkdir dist
 - cp -r assets dist/
-- cp index.html dist
+- cp *.html dist
 
 deploy:
   provider: pages
