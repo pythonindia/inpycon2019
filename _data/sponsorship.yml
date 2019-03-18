@@ -1,0 +1,76 @@
+benefits:
+  - type: Free Passes
+    platinum: 10
+    gold: 6
+    silver: 4
+    associate: 3
+  - type: Speaker Dinner Passes
+    platinum: 6
+    gold: 4
+    silver: 2
+    associate: 1
+  - type: Logo on Website
+    platinum: yes
+    gold: yes
+    silver: yes
+    associate: yes
+  - type: Write-up on Website
+    platinum: yes
+    gold: yes
+    silver: yes
+    associate: yes
+  - type: Link on Website
+    platinum: yes
+    gold: yes
+    silver: yes
+    associate: yes
+  - type: Stall at Venue
+    platinum: 12 m<sup>2</sup>
+    gold: 10 m<sup>2</sup>
+    silver: 6 m<sup>2</sup>
+    associate: no
+  - type: Logo on official banner
+    platinum: yes
+    gold: yes
+    silver: no
+    associate: no
+  - type: Logo on notebook given to participants
+    platinum: yes
+    gold: yes
+    silver: no
+    associate: no
+  - type: Ability to distribute goodies at the stall
+    platinum: yes
+    gold: yes
+    silver: no
+    associate: no
+  - type: Company’s brochure in welcome kit
+    platinum: yes
+    gold: no
+    silver: no
+    associate: no
+  - type: Logo on goodie bag
+    platinum: yes
+    gold: no
+    silver: no
+    associate: no
+  - type: Talk slot (25 min) at the conference
+    platinum: yes
+    gold: no
+    silver: no
+    associate: no
+  - type: Lightning talk slot (5 min) at conference
+    platinum: no
+    gold: yes
+    silver: no
+    associate: no
+  - type: Tutorial (1 hour) in Openspaces
+    platinum: no
+    gold: no
+    silver: yes
+    associate: no
+  - type: Poster Presentation Slot
+    platinum: no
+    gold: no
+    silver: no
+    associate: yes
