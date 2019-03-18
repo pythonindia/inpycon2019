@@ -121,3 +121,15 @@ a:active {
     height: 100px;
   }
 }
+.content td {
+  border: 1px solid black;
+}
+.content th {
+  border: 1px solid black;
+}
+.content table {
+  border: 1px solid black;
+}
+.content li {
+  line-height: 1.5;
+}
