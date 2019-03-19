@@ -43,3 +43,6 @@ exclude:
   - deploy_key.enc
   - README.md
   - setting-up-inpycon-2020.md
+  - CONTRIBUTING.md
+  - LICENSE.md
+  - WEBSITE-CODE-OF-CONDUCT.md
