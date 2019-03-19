@@ -121,15 +121,39 @@ a:active {
     height: 100px;
   }
 }
-.content td {
-  border: 1px solid black;
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 1px solid #cbcbcb;
 }
-.content th {
-  border: 1px solid black;
+
+thead {
+  background-color: #e0e0e0;
+  color: #000;
+  text-align: left;
+  vertical-align: bottom;
 }
-.content table {
-  border: 1px solid black;
+
+th, td {
+  border-left: 1px solid #cbcbcb;
+  border-width: 0 0 0 1px;
+  font-size: inherit;
+  margin: 0;
+  overflow: visible;
+  padding: .5em 1em;
 }
+
+td {
+  background-color: transparent;
+  border-bottom: 1px solid #cbcbcb;
+}
+
+.pure-table td:first-child,
+.pure-table th:first-child {
+  border-left-width: 0;
+}
+
 .content li {
   line-height: 1.5;
 }
