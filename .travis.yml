@@ -1,18 +1,26 @@
+language: ruby
+rvm:
+  - 2.4.1
+
 addons:
   ssh_known_hosts:
   - in.pycon.org
 
 script:
-- mkdir dist
-- cp -r assets dist/
-- cp *.html dist
+- bundle exec jekyll build
+
+cache: bundler
+
+branches:
+  only:
+  - master
 
 deploy:
   provider: pages
   skip-cleanup: true
   github-token: "$GITHUB_TOKEN"
   keep-history: true
-  local-dir: dist
+  local-dir: _site
   on:
     branch: master
 
