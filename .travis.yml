@@ -15,12 +15,17 @@ branches:
   only:
   - master
 
+# We build the site and push to the gh-pages branch.
+# However, the server isn't configured to automatically
+# reflect the changes. To handle this, we use the
+# after_deploy scripts to ssh into the machine and trigger
+# magudi to pull in and serve the latest changes
 deploy:
   provider: pages
   skip-cleanup: true
   github-token: "$GITHUB_TOKEN"
   keep-history: true
-  local-dir: _site
+  local-dir: dist
   on:
     branch: master
 

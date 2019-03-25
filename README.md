@@ -11,6 +11,11 @@ will be held in Chennai this year.
 
 This site is built with [Jekyll](https://jekyllrb.com/).
 
+For production deployments, we run the output of Jekyll through
+[Parcel](https://parceljs.org/) to generate an optimised build.
+We are doing this because the JavaScript has a better set of tools to do this
+compared to Jekyll.
+
 ### Getting Started
 
 * Install Jekyll. You can do so by running `gem install bundler jekyll`.

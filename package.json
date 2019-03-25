@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "parcel-bundler": "^1.12.3"
+  },
+  "scripts": {
+    "build:prod": "parcel build _site/index.html"
+  }
+}
