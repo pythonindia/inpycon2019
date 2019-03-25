@@ -11,12 +11,23 @@ will be held in Chennai this year.
 
 This site is built with [Jekyll](https://jekyllrb.com/).
 
+For production deployments, we run the output of Jekyll through
+[Parcel](https://parceljs.org/) to generate an optimised build.
+We are doing this because the JavaScript ecosystem has a better set
+of tools to do this compared to Jekyll.
+
 ### Getting Started
 
 * Install Jekyll. You can do so by running `gem install bundler jekyll`.
 * Run `git clone https://github.com/pythonindia/inpycon2019`.
 * Run `jekyll serve`.
 * Visit `http://localhost:4000/2019/`.
+
+### To generate an optimised build with Parcel
+
+* Run `npm install`.
+* Run `npm run build:prod`.
+* The build will be generated at `dist`.
 
 ### Contributing to the website
 
