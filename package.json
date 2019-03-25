@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "parcel-bundler": "^1.12.3"
+  },
+  "scripts": {
+    "netlify:copy": "mkdir dist/2019 && mv dist/*.* dist/2019",
+    "netlify:link": "touch dist/index.html && echo \"<a href='/2019'>Visit this link to preview your changes</a>\" >> dist/index.html",
+    "build:prod": "parcel build _site/index.html --public-url /2019/"
+  }
+}
