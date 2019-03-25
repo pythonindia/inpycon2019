@@ -8,6 +8,8 @@ addons:
 
 script:
 - bundle exec jekyll build
+- npm install
+- npm run build:prod
 
 cache: bundler
 
