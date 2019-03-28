@@ -108,26 +108,28 @@ scientists, engineers and domain experts.
   <tbody>
     <tr>
       <td>Platinum</td>
-      <td>₹ 7,50,000 + GST</td>
-      <td>$ 12000 + GST</td>
+      <td>₹ 7,50,000</td>
+      <td>$ 12000</td>
     </tr>
     <tr>
       <td>Gold </td>
-      <td>₹ 3,50,000 + GST</td>
-      <td>$ 5400 + GST</td>
+      <td>₹ 3,50,000</td>
+      <td>$ 5400</td>
     </tr>
     <tr>
       <td>Silver (Startup Discount Available)</td>
-      <td>₹ 1,75,000 + GST</td>
-      <td>$ 2700 + GST</td>
+      <td>₹ 1,75,000</td>
+      <td>$ 2700</td>
     </tr>
     <tr>
       <td>Associate (Startup Discount Available)</td>
-      <td>₹ 50,000 + GST</td>
-      <td>$ 800 + GST</td>
+      <td>₹ 50,000</td>
+      <td>$ 800</td>
     </tr>
   </tbody>
 </table>
+
+The above mentioned sponsorship amount is exclusive of 18% GST.
 
 <br>
 
