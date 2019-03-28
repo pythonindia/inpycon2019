@@ -108,23 +108,23 @@ scientists, engineers and domain experts.
   <tbody>
     <tr>
       <td>Platinum</td>
-      <td>₹ 7,50,000</td>
-      <td>$ 12000</td>
+      <td>₹ 7,50,000 + GST</td>
+      <td>$ 12000 + GST</td>
     </tr>
     <tr>
       <td>Gold </td>
-      <td>₹ 3,50,000</td>
-      <td>$ 5400</td>
+      <td>₹ 3,50,000 + GST</td>
+      <td>$ 5400 + GST</td>
     </tr>
     <tr>
       <td>Silver (Startup Discount Available)</td>
-      <td>₹ 1,75,000</td>
-      <td>$ 2700</td>
+      <td>₹ 1,75,000 + GST</td>
+      <td>$ 2700 + GST</td>
     </tr>
     <tr>
       <td>Associate (Startup Discount Available)</td>
-      <td>₹ 50,000</td>
-      <td>$ 800</td>
+      <td>₹ 50,000 + GST</td>
+      <td>$ 800 + GST</td>
     </tr>
   </tbody>
 </table>
