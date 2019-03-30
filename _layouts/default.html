@@ -2,7 +2,8 @@
 <html lang="en">
 {% include head.html %}
 <body>
-  <main>
+
+  <main class="{% if page.bloglike %}blog{% endif %}">
     {% include navbar.html %}
 
     <div class="header">

@@ -2,6 +2,7 @@
 layout: default
 header: Sponsorship Prospectus
 title: Sponsorship Prospectus
+bloglike: true
 ---
 
 ## Introduction
