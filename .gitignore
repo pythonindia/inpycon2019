@@ -59,5 +59,6 @@ _site
 
 dist
 .cache
+.jekyll-cache
 
 node_modules
