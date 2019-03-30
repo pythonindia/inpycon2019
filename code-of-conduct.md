@@ -2,6 +2,7 @@
 layout: default
 title: Code Of Conduct
 header: Code Of Conduct
+bloglike: true
 ---
 
 PyCon India is a community organized conference intended for advocating the use and adoption

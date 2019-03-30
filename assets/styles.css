@@ -10,9 +10,16 @@ body {
   margin-bottom: 100px;
   background: #f7f9fa;
 }
+.blog {
+  font-family: 'Lora', serif;
+  margin: 0 auto;
+  max-width: 900px;
+  line-height: 2rem;
+}
 .header {
   padding: 3% 10%;
   padding-bottom: 2%;
+  line-height: 4rem;
 }
 .content {
   padding: 0 10% 5%;
@@ -72,7 +79,9 @@ a:active {
 .navbar {
   text-align: left;
   margin-left: 10%;
+  margin-right: 10%;
   margin-top: 1%;
+  font-family: 'Roboto', sans-serif;
 }
 .navbar a {
   margin-right: 1%;
