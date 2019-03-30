@@ -5,9 +5,8 @@ addons:
   ssh_known_hosts:
   - in.pycon.org
 script:
-- bundle exec jekyll build
-- npm install
-- npm run build:prod
+- JEKYLL_ENV=production bundle exec jekyll build
+- mkdir -p dist/2019 && mv _site/* dist/2019
 cache: bundler
 branches:
   only:
