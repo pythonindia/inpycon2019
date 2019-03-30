@@ -30,19 +30,19 @@ You can stay tuned for further details by
     <div class="conference column text-center">
       <h3>Conference</h3>
       <p>October 12, 13 at Chennai Trade Center</p>
-      <img class="svg" src="assets/conference.svg" alt="Conference">
+      {% asset conference.svg alt='Conference' class='svg' %}
     </div>
 
     <div class="workshops column text-center">
       <h3>Workshops</h3>
       <p>October 14 at IITM Research Park</p>
-      <img class="svg" src="assets/workshop.svg" alt="Workshops">
+      {% asset workshop.svg alt='Workshops' class='svg' %}
     </div>
 
     <div class="devsprints column text-center">
       <h3>Dev Sprints</h3>
       <p>October 14, 15 at IITM Research Park</p>
-      <img class="svg" src="assets/devsprint.svg" alt="Dev Sprints">
+      {% asset devsprint.svg alt='Dev Sprints' class='svg' %}
     </div>
   </div>
 </div>
