@@ -1,0 +1,168 @@
+html {
+  font-size: 18px;
+  position: relative; 
+  min-height: 100%;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 100px;
+  background: #f7f9fa;
+}
+.blog {
+  font-family: 'Lora', serif;
+  margin: 0 auto;
+  max-width: 900px;
+  line-height: 2rem;
+}
+.header {
+  padding: 3% 10%;
+  padding-bottom: 2%;
+  line-height: 4rem;
+}
+.content {
+  padding: 0 10% 5%;
+}
+h1, h2, h3 {
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-color: #f6aa3c;
+  -webkit-text-decoration-color: #f6aa3c;
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.5rem;
+  margin: 0;
+  text-decoration: none;
+}
+svg {
+  vertical-align: middle;
+}
+.emphasis {
+  font-weight: 700;
+}
+.muted {
+  color: #888;
+}
+.footer {
+  padding-left: 5%;
+  padding-right: 5%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  background: #28a3d7;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: #28a3d7;
+  text-decoration: none;
+  border-bottom: 2px solid #f6aa3c;
+}
+.text-center {
+  /* text-align: center; */
+}
+.navbar {
+  text-align: left;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 1%;
+  font-family: 'Roboto', sans-serif;
+}
+.navbar a {
+  margin-right: 1%;
+  font-size: .7rem;
+}
+@media screen and (max-width: 480px) {
+  .header {
+    padding-top: 15%;
+    padding-bottom: 5%;
+  }
+}
+.events {
+  margin: 10% 0;
+}
+.schedule {
+  display: flex;
+  justify-content: space-between;
+  max-width: 2000px;
+}
+.column {
+  flex: 1;
+  width: 32%;
+  padding-right: 10px;
+  margin-top: 2%;
+}
+@media screen and (max-width: 720px) {
+  .schedule {
+    display: block;
+    text-align: left;
+  }
+  .events {
+    margin: 23% 0;
+  }
+  .column {
+    width: 100%;
+    text-align: left;
+  }
+}
+.svg {
+  height: 150px;
+  margin-top: 25px;
+  margin-bottom: 75px;
+}
+@media screen and (max-width: 1000px) {
+  .svg {
+    height: 100px;
+  }
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 1px solid #cbcbcb;
+}
+
+thead {
+  background-color: #e0e0e0;
+  color: #000;
+  text-align: left;
+  vertical-align: bottom;
+}
+
+th, td {
+  border-left: 1px solid #cbcbcb;
+  border-width: 0 0 0 1px;
+  font-size: inherit;
+  margin: 0;
+  overflow: visible;
+  padding: .5em 1em;
+}
+
+td {
+  background-color: transparent;
+  border-bottom: 1px solid #cbcbcb;
+}
+
+.pure-table td:first-child,
+.pure-table th:first-child {
+  border-left-width: 0;
+}
+
+.content li {
+  line-height: 1.5;
+}
