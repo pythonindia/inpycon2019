@@ -130,6 +130,8 @@ scientists, engineers and domain experts.
   </tbody>
 </table>
 
+The above mentioned sponsorship amount is exclusive of 18% GST.
+
 <br>
 
 ## Sponsorship Benefits

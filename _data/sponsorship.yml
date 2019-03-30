@@ -25,9 +25,9 @@ benefits:
     silver: yes
     associate: yes
   - type: Stall at Venue
-    platinum: 12 m<sup>2</sup>
-    gold: 10 m<sup>2</sup>
-    silver: 6 m<sup>2</sup>
+    platinum: 4x3 m<sup>2</sup>
+    gold: 3x3 m<sup>2</sup>
+    silver: 3x2 m<sup>2</sup>
     associate: no
   - type: Logo on official banner
     platinum: yes
