@@ -10,7 +10,7 @@ bloglike: true
 
 Technical talks are the most important event at PyCon India, the core of the conference essentially. Two of the four days are dedicated to talks. Talks are short (30 min) lectures supported by presentation. Speakers come from the Python community.
 
-Talks are selected through a CFP (call for proposals) process. Interested members of the community propose their talks. An editorial panel designated by the organizers makes the selections. The 2018 edition of the conference saw some 267 proposals, of which 31 were selected. 
+Talks are selected through a CFP (call for proposals) process. Interested members of the community propose their talks. An editorial panel designated by the organizers makes the selections. The 2018 edition of the conference saw some 267 proposals, of which 31 were selected.
 
 CFP applications from the previous years can be seen [here](https://in.pycon.org/cfp/).
 
@@ -34,7 +34,7 @@ Anything of interest to Python programmers is welcome. However, there are a few 
 
 - Something you learned from a different language that may be useful to Python community. How about a type system ? Or patterns from functional programming. Or logic programming maybe ?
 
-- Thoughts on tech culture and living. Ideas on improving diversity and inclusiveness. On programmers' physical and mental health. On getting better at productivity. On workplace issues. Anything that can make an impact.
+- Thoughts on tech culture and living. Ideas on improving diversity and inclusiveness. On programmers’ physical and mental health. On getting better at productivity. On workplace issues. Anything that can make an impact, especially if you have used Python for any of the above or have seen someone using Python.
 
 And if you don't get any ideas along these lines, try plain and simple teaching. Pick up an niche topic (maybe a recent technology, or a scientific paper), and help us learn. A well delivered lecture even at a beginner level is often well received.
 
@@ -56,7 +56,7 @@ Shortlisted speakers will be expected to participate in rehearsal sessions. Rehe
 
 The point of this exercise is to make sure speakers are ready with their talks ahead of time. And also, to make sure they can finish the talk in the stipulated time. It is useful for the speakers too as they'd get feedback on the content delivery and presentation.
 
-Participation in the rehearsal sessions is be a mandatory step - we'll not be able to take unrehearsed talks to the final stage.
+Participation in the rehearsal sessions is likely to be a required step - chances of unrehearsed talk making it to final stage are substantially lower.
 
 
 ### Diversity
@@ -66,7 +66,7 @@ We in the Python community believe in making our community more diverse. This me
 The under-represented groups we have identified in that spirit are:
 
 - women
-- disabled people
+- differently-abled people
 
 Our goal is to ensure __at least one third__ of the content comes from under-represented groups.
 You can help us reach the goal by encouraging your friends, family and colleagues to submit talks. You can also help by mentoring (see next section).
@@ -88,11 +88,8 @@ Add as much detail as possible to the proposal. Add the presentation slides if y
 
 We will start the review process as the proposals come in, and not at the end. Proposals submitted early will get more attention and feedback
 
-**4. Don't advertise**
 
-The proposal should not look like a sales copy for your product or project. To promote your project/business, get in touch with the sponsorship team
-
-**5. The code of conduct**
+**4. The code of conduct**
 
 Take a look at the [code of conduct](/2019/code-of-conduct.html), and be mindful of it. The gist is, avoid using sexist language.
 
@@ -104,5 +101,3 @@ Or contact the coordinators through email:
 Naren - narenravi92@gmail.com   
 Abhishek - zerothabhishek@gmail.com  
 The team: cfp@in.pycon.org  
-
-
