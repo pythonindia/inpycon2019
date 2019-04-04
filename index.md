@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 header: PyCon India 2019
 ---
 

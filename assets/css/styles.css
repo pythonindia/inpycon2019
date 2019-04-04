@@ -21,6 +21,16 @@ body {
   padding-bottom: 2%;
   line-height: 4rem;
 }
+.logo-typography {
+  max-width: 800px;
+  margin: 5% -2%;
+  margin-right: 0;
+}
+@media screen and (max-width: 600px) {
+  .logo-typography {
+    margin-top: 10%;
+  }
+}
 .content {
   padding: 0 10% 5%;
 }
