@@ -34,8 +34,8 @@ In general we'd like to ask you to please target the master branch with your pul
 We recommend creating a new branch for each feature task/bug since it makes easier to edit
 commits in future if needed.
 
-After submitting a pull request, preview your changes by going through the `Checks` tab and click `Pages changed` under `Netlify` checks then under `DETAILS` section click `view` to preview
-any changed page
+After submitting a pull request, you can see the changed files by going through the `Checks`
+tab and clicking `Pages changed`. You can click on `view` to see any changed file.
 
 ![Changed pages](https://user-images.githubusercontent.com/22278438/55508576-cfdd6200-5677-11e9-9b27-8d2ae823f1b5.png)
 
