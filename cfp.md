@@ -56,20 +56,15 @@ Shortlisted speakers will be expected to participate in rehearsal sessions. Rehe
 
 The point of this exercise is to make sure speakers are ready with their talks ahead of time. And also, to make sure they can finish the talk in the stipulated time. It is useful for the speakers too as they'd get feedback on the content delivery and presentation.
 
-Participation in the rehearsal sessions is likely to be a required step - chances of unrehearsed talk making it to final stage are substantially lower.
+Participation in the rehearsal sessions is likely to be a required step - chances of an unrehearsed talk making it to the final stage are substantially lower.
 
 
 ### Diversity
 
 We in the Python community believe in making our community more diverse. This means we are encouraging content from diverse walks of life. This also means we want to improve participation from under-represented groups.
 
-The under-represented groups we have identified in that spirit are:
-
-- women
-- differently-abled people
-
-Our goal is to ensure __at least one third__ of the content comes from under-represented groups.
-You can help us reach the goal by encouraging your friends, family and colleagues to submit talks. You can also help by mentoring (see next section).
+Our goal is to maximise content from under-represented groups.
+You can help us by encouraging your friends, family and colleagues to submit talks. You can also help by mentoring.
 
 Also note that we have a strict [code-of-conduct](/2019/code-of-conduct.html). This is to make it clear, in intent and practice, that we are committed to making the conference a pleasant, welcoming and harassment free experience for everyone, especially for under-represented groups.
 
