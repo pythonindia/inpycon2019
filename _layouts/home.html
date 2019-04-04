@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body>
+
+  <main class="{% if page.bloglike %}blog{% endif %}">
+    {% include navbar.html %}
+
+    <div class="content">
+      {% include typography.svg %}
+
+      {{ content }}
+    </div>
+
+    {% include footer.html %}
+  </main>
+</body>
+</html>

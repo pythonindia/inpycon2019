@@ -1,12 +1,10 @@
 ---
-layout: default
+layout: home
 header: PyCon India 2019
 ---
 
 India's premier conference on using and developing the Python programming language
 will be held in Chennai this year.
-
-<br>
 
 <p class="emphasis">
   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#f6aa3c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
@@ -18,10 +16,24 @@ will be held in Chennai this year.
   Chennai Trade Center and IIT Madras Research Park
 </p>
 
-<br>
+<div class="two-col">
+  <div class="col">
+    <p>
+      PyCon India is entirely driven by volunteers. Sponsoring the event helps to sustain and
+      grow the conference as well as the community.
+    </p>
 
-You can stay tuned for further details by
-<a rel="noopener" href="https://goo.gl/forms/GdtTebWL7mn3oKtW2" target="_blank">subscribing to our announcements.</a>
+    <strong><a href="cfp.html">Sponsor Us</a></strong>
+  </div>
+  <div class="col">
+    <p>
+      Our Call For Proposals is open! We encourage content from diverse walks of life and want
+      to increase the participation of under-represented groups.
+    </p>
+
+    <strong><a href="cfp.html">Submit a Talk</a></strong>
+  </div>
+</div>
 
 <div class="events">
   <h2>Event Schedule</h2>

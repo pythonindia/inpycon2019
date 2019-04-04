@@ -21,6 +21,16 @@ body {
   padding-bottom: 2%;
   line-height: 4rem;
 }
+.logo-typography {
+  max-width: 800px;
+  margin: 5% -2%;
+  margin-right: 0;
+}
+@media screen and (max-width: 600px) {
+  .logo-typography {
+    margin-top: 10%;
+  }
+}
 .content {
   padding: 0 10% 5%;
 }
@@ -43,6 +53,9 @@ h3 {
 }
 svg {
   vertical-align: middle;
+}
+p {
+  line-height: 2rem;
 }
 .emphasis {
   font-weight: 700;
@@ -165,4 +178,25 @@ td {
 
 .content li {
   line-height: 1.5;
+}
+
+.col {
+  float: left;
+  width: 45%;
+  padding: 1%;
+}
+.two-col {
+  max-width: 2000px;
+}
+.two-col:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 720px) {
+  .col {
+    float: none;
+    width: 100%;
+    margin-bottom: 10%;
+  }
 }
