@@ -5,12 +5,12 @@ title: Call for Proposals
 bloglike: true
 ---
 
-### Welcome to PyconIndia CFP
+### Welcome to PyCon India CFP
 
 
-Technical talks are the most important event at PyCon India, the core of the conference essentially. Two of the four days are dedicated to talks. Talks are short (30 min) lectures supported by presentation. Speakers come from the Python community.
+Technical talks are the most important event at PyCon India, the core of the conference essentially. Two of the four days are dedicated to talks. Talks are short lectures (30 min slot) supported by a presentation. Speakers come from the Python community.
 
-Talks are selected through a CFP (call for proposals) process. Interested members of the community propose their talks. An editorial panel designated by the organizers makes the selections. The 2018 edition of the conference saw some 267 proposals, of which 31 were selected.
+Talks are selected through a CFP (Call For Proposals) process. Interested members of the community propose their talks. An editorial panel designated by the organizers makes the selections. The 2018 edition of the conference saw some 267 proposals, of which 31 were selected.
 
 CFP applications from the previous years can be seen [here](https://in.pycon.org/cfp/).
 
@@ -26,7 +26,7 @@ CFP applications from the previous years can be seen [here](https://in.pycon.org
 - Talk duration is __30 mins__ (25 mins for the talk, 5 mins - Q&A)
 - CFP closes on __1st July 2019__
 - Schedule shall be released on __1st September 2019__
-
+- Talks will be presented on __12th and 13th October 2019__
 
 ### What to Propose
 
@@ -42,13 +42,13 @@ Anything of interest to Python programmers is welcome. However, there are a few 
 
 And if you don't get any ideas along these lines, try plain and simple teaching. Pick up an niche topic (maybe a recent technology, or a scientific paper), and help us learn. A well delivered lecture even at a beginner level is often well received.
 
-### The review process
+### The Review Process
 
 - Authors should propose their talks using the [CFP application](https://in.pycon.org/cfp/2019/proposals/create/)
 - CFP volunteers review the proposals for completeness
 - Once the proposals are ready, they are be reviewed by a panel of experts
 - If the proposal does not look complete, or the reviewers need clarifications, the author is notified via comments
-- The reviewers finally vote on the proposals
+- The panel of experts finally vote on the proposals
 - A pre-final shortlist is eventually prepared based on the votes
 - The shortlisted proposals go through a round of rehearsals (more details in section below)
 - A final list is created and published.
@@ -93,7 +93,7 @@ We will start the review process as the proposals come in, and not at the end. P
 Take a look at the [code of conduct](/2019/code-of-conduct.html), and be mindful of it. The gist is, avoid using sexist language.
 
 
-### Questions and discussions
+### Questions and Discussions
 
 Ping us on [Gitter](https://gitter.im/CFP-PyCon-In/community)  
 Or contact the coordinators through email:  
