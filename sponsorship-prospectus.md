@@ -173,6 +173,10 @@ in exchange for contact information.
 
 <br>
 
+**You can access the sponsorship prospectus in PDF format [here](/2019/assets/sponsorship-prospectus.pdf).**
+
+<br>
+
 ## Contact
 
 - Mail: [sponsorship@in.pycon.org](mailto:sponsorship@in.pycon.org)
