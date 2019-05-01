@@ -25,6 +25,10 @@ nav: index
           <!-- <div class="text-center pycon-speakers-img dwd-buyticket" style="position: relative;">
             <a href="#pyc-count" class="dwd-link"><b>BOOK TICKETS</b></a>
           </div> -->
+          <div class="text-center pycon-speakers-img dwd-buyticket" style="position: relative;">
+            <a href="/2019/sponsorship-prospectus.html" class="dwd-link"><b>Sponsorship</b></a>
+            <a href="/2019/cfp.html" class="dwd-link"><b>CFP</b></a>
+          </div>
         </div>
       </div>
     </div>
@@ -97,7 +101,7 @@ nav: index
   <div class="container">
     <div class="row wow fadeIn">
       <div class="col-md-10 col-md-offset-1">
-        <div class="col-md-12">
+        <div class="col-md-6">
           <div class="updates">
             <!-- <h4>Tweets</h4> -->
             {% include twitter-feed.html %}
