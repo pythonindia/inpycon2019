@@ -27,7 +27,7 @@ nav: index
           </div> -->
           <div class="text-center pycon-speakers-img dwd-buyticket" style="position: relative;">
             <a href="/2019/sponsorship-prospectus.html" class="dwd-link"><b>Sponsorship</b></a>
-            <a href="/2019/cfp.html" class="dwd-link"><b>CFP</b></a>
+            <a href="/2019/cfp.html" class="dwd-link"><b>Submit A Talk</b></a>
           </div>
         </div>
       </div>
