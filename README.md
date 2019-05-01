@@ -15,6 +15,7 @@ This site is built with [Jekyll](https://jekyllrb.com/).
 
 * Install Jekyll. You can do so by running `gem install bundler jekyll`.
 * Run `git clone https://github.com/pythonindia/inpycon2019`.
+* Run `bundle install` to install all dependencies.
 * Run `jekyll serve`.
 * Visit `http://localhost:4000/2019/`.
 
