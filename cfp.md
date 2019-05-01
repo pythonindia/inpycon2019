@@ -3,6 +3,7 @@ layout: default
 header: Call for Proposals
 title: Call for Proposals
 bloglike: true
+nav: cfp
 ---
 
 ### Welcome to PyCon India CFP
