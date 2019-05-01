@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body>
+
+  <main class="{% if page.bloglike %}blog{% endif %}">
+    {% include navbar.html %}
+
+    <div class="header">
+      <h1>{{ page.header }}</h1>
+    </div>
+
+    <div class="content">
+      {{ content }}
+    </div>
+
+    {% include footer.html %}
+  </main>
+</body>
+</html>

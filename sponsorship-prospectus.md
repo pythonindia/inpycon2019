@@ -2,6 +2,7 @@
 layout: default
 header: Sponsorship Prospectus
 title: Sponsorship Prospectus
+nav: sponsorship-prospectus
 bloglike: true
 ---
 
@@ -94,7 +95,7 @@ scientists, engineers and domain experts.
 
 ## Sponsorship Packages
 
-<table class="pure-table pure-table-bordered">
+<table class="table table-striped">
   <thead>
     <tr>
       <td colspan="1"><strong>Package</strong></td>
@@ -136,7 +137,7 @@ The above mentioned sponsorship amount is exclusive of 18% GST.
 
 ## Sponsorship Benefits
 
-<table class="pure-table pure-table-bordered">
+<table class="table table-striped">
   <thead>
     <tr>
       <td><strong>Benefit</strong></td>
