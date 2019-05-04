@@ -741,6 +741,14 @@ footer p {
   color: #c7c5c5;
 }
 
+.footer-social-media {
+transform: translateY(-25px);
+}
+
+.footer-webchirpy {
+transform: translateY(-10px);
+}
+
 /*hover style css*/
 .trade a:hover {
   border-bottom: 2px solid #439de9;
