@@ -26,8 +26,8 @@ nav: index
             <a href="#pyc-count" class="dwd-link"><b>BOOK TICKETS</b></a>
           </div> -->
           <div class="text-center pycon-speakers-img dwd-buyticket" style="position: relative;">
-            <a href="/2019/sponsorship-prospectus.html" class="dwd-link"><b>Sponsorship</b></a>
-            <a href="/2019/cfp.html" class="dwd-link"><b>Submit A Talk</b></a>
+            <a href="https://in.pycon.org/cfp/2019/proposals/" class="dwd-link"><b>Submit A Talk</b></a>
+            <a href="https://in.pycon.org/cfp/workshops-2019/proposals/" class="dwd-link"><b>Submit A Workshop</b></a>
           </div>
         </div>
       </div>
