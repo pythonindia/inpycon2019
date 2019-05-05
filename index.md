@@ -81,11 +81,11 @@ nav: index
   {% asset yellowwind.png alt="Wind" class="wind-1 bg" %}
 </section>
 
-{% comment %}{% include keynote-speakers.html %}{% endcomment %}
+{% include keynote-speakers.html %}
 
 {% comment %}{% include schedule.html %}{% endcomment %}
 
-{% comment %}{% include sponsors.html %}{% endcomment %}
+{% include sponsors.html %}
 
 {% comment %}{% include tickets.html %}{% endcomment %}
 
