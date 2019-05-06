@@ -20,13 +20,13 @@ nav: index
         <div class="pycon-banner-text">
           <div class="text-center conference">
             {% asset logolg.png alt="PyCon India 2019 Logo" width="100%" %}
-	    <p>
-		The premier conference in India on using and
-		developing the python programming language. Stay tuned
-		for further updates by <a
-		href="https://goo.gl/forms/GdtTebWL7mn3oKtW2">subscribing
-		to our announcements</a>.
-	    </p>
+            <p>
+              The premier conference in India on using and
+              developing the python programming language. Stay tuned
+              for further updates by <a
+              href="https://goo.gl/forms/GdtTebWL7mn3oKtW2">subscribing
+              to our announcements</a>.
+            </p>
           </div>
           <!-- <div class="text-center pycon-speakers-img dwd-buyticket" style="position: relative;">
             <a href="#pyc-count" class="dwd-link"><b>BOOK TICKETS</b></a>
@@ -113,11 +113,9 @@ nav: index
             {% include twitter-feed.html %}
           </div>
         </div>
-        <!-- <div class="col-md-6">
-          <div class="updates">
-            <h4>Latest Blogs</h4>
-          </div>
-        </div> -->
+        <div class="col-md-6">
+          {% include blog-feed.html %}
+        </div>
       </div>
     </div>
   </div>
