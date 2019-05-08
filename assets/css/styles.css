@@ -637,6 +637,7 @@ table h3 {
   position: relative;
   z-index: 999;
   background: #fff;
+  margin-top: 20px;
 }
 
 .latest-updates {
@@ -1089,4 +1090,9 @@ a {
 
 .blog ul {
   list-style: initial;
+}
+
+.small {
+  font-size: 14px;
+  font-weight: lighter;
 }
