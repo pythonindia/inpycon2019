@@ -1,5 +1,5 @@
 <section>
-  {% asset tunnel1.png alt="Cloud" class="tunnel1 bg" %}
+  {% asset tunnel-blue-exit.png alt="Cloud" class="tunnel1 bg" %}
   <div class="container">
     <div class="row wow fadeIn">
       <div class="col-md-12 text-center wow fadeIn">
@@ -14,7 +14,7 @@
             {% assign mod = forloop.index | modulo: 2 %}
             <div class="{% if mod == 0 %}blue{% else %}orange{% endif %}">
               {% asset {{speaker.photo}} alt="{{speaker.name}}" class="sp-img" width="100%" %}
-              {% comment %}{% asset speakers-img1.png class="pycon-icon" alt="PyCon Icon" width="42%" %}{% endcomment %}
+              {% comment %}{% asset python-bottom.png class="pycon-icon" alt="PyCon Icon" width="42%" %}{% endcomment %}
               <h4>{{speaker.name}}</h4>
               <h5>{{speaker.title}}</h5>
             </div>
@@ -23,5 +23,5 @@
       </div>
     </div>
   </div>
-  {% asset tunnel4.png alt="Cloud" class="tunnel2 tunnel4 bg" %}
+  {% asset tunnel-white-entry.png alt="Cloud" class="tunnel2 tunnel4 bg" %}
 </section>

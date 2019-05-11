@@ -7,9 +7,9 @@ nav: index
 <section class="pycon-banner">
   {% asset banner-image alt="Banner-image" class="banner-img bg" %}
   {% asset sun.png alt="Sun" class="circle loading bg" %}
-  {% asset cloud1.png alt="Cloud" class="cloud1 bg" %}
-  {% asset cloud1.png alt="Cloud" class="cloud-1 bg" %}
-  {% asset cloud2.png alt="Cloud" class="cloud2 bg" %}
+  {% asset cloud-small.png alt="Cloud" class="cloud1 bg" %}
+  {% asset cloud-small.png alt="Cloud" class="cloud-1 bg" %}
+  {% asset cloud-long.png alt="Cloud" class="cloud2 bg" %}
   {% asset wind.png alt="Wind" class="wind bg" %}
   {% asset wind.png alt="Wind" class="wind_1 bg" %}
 
@@ -19,7 +19,7 @@ nav: index
       <div class="col-md-6">
         <div class="pycon-banner-text">
           <div class="text-center conference">
-            {% asset logolg.png alt="PyCon India 2019 Logo" width="100%" %}
+            {% asset logo-lg.png alt="PyCon India 2019 Logo" width="100%" %}
             <p>
               The premier conference in India on using and
               developing the python programming language. Stay tuned
@@ -39,7 +39,7 @@ nav: index
       </div>
     </div>
   </div>
-  {% asset tunnel2.png alt="Tunnel" class="tunnel2 bg" %}
+  {% asset tunnel-blue-entry.png alt="Tunnel" class="tunnel2 bg" %}
 </section>
 
 <section class="pycon-counter" id="pyc-count">
@@ -48,22 +48,22 @@ nav: index
       <div class="row text-center wow fadeInDown">
           <div class="col-md-4 text-center">
             <div class="con">
-              {% asset sbac1.png class="sbac1" alt="Bracket" %}
+              {% asset bracket-left.png class="sbac1" alt="Bracket" %}
               <h4><b>CONFERENCE</b></h4>
               <h5>October 12, 13</h5>
               <h5 style="font-weight: 500">Chennai Trade center</h5>
-              {% asset sbac2.png class="sbac2" alt="Bracket" %}
+              {% asset bracket-right.png class="sbac2" alt="Bracket" %}
             </div>
             <!-- <a class="buytic" href="#">Buy Tickets</a> -->
           </div>
 
           <div class="col-md-4 text-center">
             <div class="con">
-              {% asset sbac1.png class="sbac1" alt="Bracket" %}
+              {% asset bracket-left.png class="sbac1" alt="Bracket" %}
               <h4><b>WORKSHOPS</b></h4>
               <h5>October 14</h5>
               <h5 style="font-weight: 500">IITM Research Park</h5>
-              {% asset sbac2.png class="sbac2" alt="Bracket" %}
+              {% asset bracket-right.png class="sbac2" alt="Bracket" %}
             </div>
             <!-- <a class="buytic" href="#">Buy Tickets</a> -->
           </div>
@@ -71,11 +71,11 @@ nav: index
 
             <div class="col-md-4 text-center">
             <div class="con">
-              {% asset sbac1.png class="sbac1" alt="Bracket" %}
+              {% asset bracket-left.png class="sbac1" alt="Bracket" %}
               <h4><b>DEV SPRINTS</b></h4>
               <h5>October 14, 15</h5>
               <h5 style="font-weight: 500">IITM Research Park</h5>
-              {% asset sbac2.png class="sbac2" alt="Bracket" %}
+              {% asset bracket-right.png class="sbac2" alt="Bracket" %}
             </div>
             <!-- <a class="buytic" href="#">Buy Tickets</a> -->
           </div>
@@ -96,7 +96,7 @@ nav: index
 {% comment %}{% include tickets.html %}{% endcomment %}
 
 <section class="latest-updates" >
-  {% asset tunnel3.png alt="Tunnel" class="tunnel1 bg" %}
+  {% asset tunnel-white-exit.png alt="Tunnel" class="tunnel1 bg" %}
 
   <div class="wow fadeIn">
     <div class="col-md-12 text-center">
@@ -121,7 +121,7 @@ nav: index
   </div>
 
   {% asset temple-tower-small.png alt="Temple Tower" class="ratinum bg" style="z-index: -1" %}
-  {% asset tunnel4.png alt="Tunnel" class="tunnel2 tunnel4 bg" %}
+  {% asset tunnel-white-entry.png alt="Tunnel" class="tunnel2 tunnel4 bg" %}
 </section>
 
 <section class="pycon-tab events-venue" >
