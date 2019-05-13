@@ -4,7 +4,7 @@ header: PyCon India 2019
 nav: index
 ---
 
-<section class="pycon-banner">
+<section class="pycon-banner wrapper">
   {% asset banner-image alt="Banner-image" class="banner-img bg" %}
   {% asset sun.png alt="Sun" class="circle loading bg" %}
   {% asset cloud-small.png alt="Cloud" class="cloud1 bg" %}
@@ -28,9 +28,6 @@ nav: index
               to our announcements</a>.
             </p>
           </div>
-          <!-- <div class="text-center pycon-speakers-img dwd-buyticket" style="position: relative;">
-            <a href="#pyc-count" class="dwd-link"><b>BOOK TICKETS</b></a>
-          </div> -->
           <div class="text-center pycon-speakers-img dwd-buyticket" style="position: relative;">
             <a href="https://in.pycon.org/cfp/2019/proposals/" class="dwd-link"><b>Submit A Talk</b></a>
             <a href="https://in.pycon.org/cfp/workshops-2019/proposals/" class="dwd-link"><b>Submit A Workshop</b></a>
@@ -42,7 +39,7 @@ nav: index
   {% asset tunnel-blue-entry.png alt="Tunnel" class="tunnel2 bg" %}
 </section>
 
-<section class="pycon-counter" id="pyc-count">
+<section class="pycon-counter wrapper">
   <div class="counter">
     <div class="container">
       <div class="row text-center wow fadeInDown">
@@ -95,7 +92,7 @@ nav: index
 
 {% comment %}{% include tickets.html %}{% endcomment %}
 
-<section class="latest-updates" >
+<section class="latest-updates wrapper">
   {% asset tunnel-white-exit.png alt="Tunnel" class="tunnel1 bg" %}
 
   <div class="wow fadeIn">
@@ -124,7 +121,7 @@ nav: index
   {% asset tunnel-white-entry.png alt="Tunnel" class="tunnel2 tunnel4 bg" %}
 </section>
 
-<section class="pycon-tab events-venue" >
+<section class="pycon-tab events-venue wrapper" >
   {% asset bluewind.png alt="wind" class="bluewind bg" style="left: 27%;top: -53px" %}
   <div class="row wow fadeIn">
     <div class="col-md-12 text-center">
