@@ -166,9 +166,9 @@ section {
 
 .circle {
   position: absolute;
-  top: 20%;
-  width: 16%;
-  left: 24%;
+  top: 15%;
+  width: 17%;
+  left: 23%;
   z-index: 0;
 }
 
@@ -211,8 +211,8 @@ section {
   position: absolute;
   left: -15px;
   z-index: 999;
-  /* width: 65%; */
   width: 60%;
+  max-width: 800px;
   bottom: -16px;
 }
 
@@ -333,16 +333,18 @@ section {
   left: 0px;
 }
 
-.blue {
-  background: #439de9;
+.blue, .orange {
+  transition: .3s all linear;
   padding: 25px;
   color: #fff;
 }
 
+.blue {
+  background: #439de9;
+}
+
 .orange {
   background: #f2b10b;
-  padding: 25px;
-  color: #fff;
 }
 
 .pycon-speakers-img .col-md-3 {
@@ -826,14 +828,10 @@ footer p {
 
 .blue:hover {
   box-shadow: 0px 0px 16px 2px #439de9;
-  cursor: pointer;
-
 }
 
 .orange:hover {
   box-shadow: 0px 0px 16px 2px #f2b10b;
-  cursor: pointer;
-
 }
 
 a {
@@ -972,7 +970,6 @@ a {
 
   .orange,
   .blue {
-    width: 60%;
     margin: 30px auto;
   }
 
@@ -1095,4 +1092,26 @@ a {
 .small {
   font-size: 14px;
   font-weight: lighter;
+}
+
+.wrapper {
+  max-width: 2000px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 2000px) {
+  #object {
+    display: none;
+  }
+
+  .railway, .tunnel1, .tunnel2, .tunnel3, .tunnel4 {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .circle {
+    width: 10%;
+    left: 18%;
+  }
 }
