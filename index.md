@@ -1,48 +1,168 @@
 ---
 layout: default
 header: PyCon India 2019
+nav: index
 ---
 
-India's premier conference on using and developing the Python programming language
-will be held in Chennai this year.
+<section class="pycon-banner wrapper">
+  {% asset banner-image alt="Banner-image" class="banner-img bg" %}
+  {% asset sun.png alt="Sun" class="circle loading bg" %}
+  {% asset cloud-small.png alt="Cloud" class="cloud1 bg" %}
+  {% asset cloud-small.png alt="Cloud" class="cloud-1 bg" %}
+  {% asset cloud-long.png alt="Cloud" class="cloud2 bg" %}
+  {% asset wind.png alt="Wind" class="wind bg" %}
+  {% asset wind.png alt="Wind" class="wind_1 bg" %}
 
-<br>
-
-<p class="emphasis">
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#f6aa3c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
-  October 12 - 15, 2019
-</p>
-
-<p class="emphasis">
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#f6aa3c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="10" r="3"/><path d="M12 21.7C17.3 17 20 13 20 10a8 8 0 1 0-16 0c0 3 2.7 6.9 8 11.7z"/></svg>
-  Chennai Trade Center and IIT Madras Research Park
-</p>
-
-<br>
-
-You can stay tuned for further details by
-<a rel="noopener" href="https://goo.gl/forms/GdtTebWL7mn3oKtW2" target="_blank">subscribing to our announcements.</a>
-
-<div class="events">
-  <h2>Event Schedule</h2>
-
-  <div class="schedule">
-    <div class="conference column text-center">
-      <h3>Conference</h3>
-      <p>October 12, 13 at Chennai Trade Center</p>
-      {% asset conference.svg alt='Conference' class='svg' %}
-    </div>
-
-    <div class="workshops column text-center">
-      <h3>Workshops</h3>
-      <p>October 14 at IITM Research Park</p>
-      {% asset workshop.svg alt='Workshops' class='svg' %}
-    </div>
-
-    <div class="devsprints column text-center">
-      <h3>Dev Sprints</h3>
-      <p>October 14, 15 at IITM Research Park</p>
-      {% asset devsprint.svg alt='Dev Sprints' class='svg' %}
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6"></div>
+      <div class="col-md-6">
+        <div class="pycon-banner-text">
+          <div class="text-center conference">
+            {% asset logo-lg.png alt="PyCon India 2019 Logo" width="100%" %}
+            <p>
+              The premier conference in India on using and
+              developing the python programming language. Stay tuned
+              for further updates by <a
+              href="https://goo.gl/forms/GdtTebWL7mn3oKtW2">subscribing
+              to our announcements</a>.
+            </p>
+          </div>
+          <div class="text-center pycon-speakers-img dwd-buyticket" style="position: relative;">
+            <a href="https://in.pycon.org/cfp/2019/proposals/" class="dwd-link"><b>Submit A Talk</b></a>
+            <a href="https://in.pycon.org/cfp/workshops-2019/proposals/" class="dwd-link"><b>Submit A Workshop</b></a>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-</div>
+  {% asset tunnel-blue-entry.png alt="Tunnel" class="tunnel2 bg" %}
+</section>
+
+<section class="pycon-counter wrapper">
+  <div class="counter">
+    <div class="container">
+      <div class="row text-center wow fadeInDown">
+          <div class="col-md-4 text-center">
+            <div class="con">
+              {% asset bracket-left.png class="sbac1" alt="Bracket" %}
+              <h4><b>CONFERENCE</b></h4>
+              <h5>October 12, 13</h5>
+              <h5 style="font-weight: 500">Chennai Trade center</h5>
+              {% asset bracket-right.png class="sbac2" alt="Bracket" %}
+            </div>
+            <!-- <a class="buytic" href="#">Buy Tickets</a> -->
+          </div>
+
+          <div class="col-md-4 text-center">
+            <div class="con">
+              {% asset bracket-left.png class="sbac1" alt="Bracket" %}
+              <h4><b>WORKSHOPS</b></h4>
+              <h5>October 14</h5>
+              <h5 style="font-weight: 500">IITM Research Park</h5>
+              {% asset bracket-right.png class="sbac2" alt="Bracket" %}
+            </div>
+            <!-- <a class="buytic" href="#">Buy Tickets</a> -->
+          </div>
+
+
+            <div class="col-md-4 text-center">
+            <div class="con">
+              {% asset bracket-left.png class="sbac1" alt="Bracket" %}
+              <h4><b>DEV SPRINTS</b></h4>
+              <h5>October 14, 15</h5>
+              <h5 style="font-weight: 500">IITM Research Park</h5>
+              {% asset bracket-right.png class="sbac2" alt="Bracket" %}
+            </div>
+            <!-- <a class="buytic" href="#">Buy Tickets</a> -->
+          </div>
+
+      </div>
+    </div>
+  </div>
+
+  {% asset yellowwind.png alt="Wind" class="wind-1 bg" %}
+</section>
+
+{% include keynote-speakers.html %}
+
+{% comment %}{% include schedule.html %}{% endcomment %}
+
+{% include sponsors.html %}
+
+{% comment %}{% include tickets.html %}{% endcomment %}
+
+<section class="latest-updates wrapper">
+  {% asset tunnel-white-exit.png alt="Tunnel" class="tunnel1 bg" %}
+
+  <div class="wow fadeIn">
+    <div class="col-md-12 text-center">
+      <h1>LATEST UPDATES</h1>
+    </div>
+  </div>
+  <br />
+  <div class="container">
+    <div class="row wow fadeIn">
+      <div class="col-md-10 col-md-offset-1">
+        <div class="col-md-6">
+          <div class="updates">
+            <!-- <h4>Tweets</h4> -->
+            {% include twitter-feed.html %}
+          </div>
+        </div>
+        <div class="col-md-6">
+          {% include blog-feed.html %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {% asset temple-tower-small.png alt="Temple Tower" class="ratinum bg" style="z-index: -1" %}
+  {% asset tunnel-white-entry.png alt="Tunnel" class="tunnel2 tunnel4 bg" %}
+</section>
+
+<section class="pycon-tab events-venue wrapper" >
+  {% asset bluewind.png alt="wind" class="bluewind bg" style="left: 27%;top: -53px" %}
+  <div class="row wow fadeIn">
+    <div class="col-md-12 text-center">
+      <h1>EVENT VENUE</h1>
+    </div>
+  </div>
+  <br /><br /><br />
+  <div class="container">
+    <div class="row wow fadeIn">
+      <div class="col-md-10 col-md-offset-1">
+        <div class="col-md-6">
+          <div class="event-venue trade1 text-center">
+            {% asset ctc.jpg alt="Chennai Trade Center" width="90%" %}
+            <div class="bg-color"></div>
+          </div>
+          <div class="address">
+            <h4><b>CHENNAI TRADE CENTER</b></h4>
+            <p>OCTOBER 12, 13</p>
+            <span>CTC Complex,<br /> Mount Poonamalle High Rd, Nandambakkam, Chennai, Tamil Nadu 6000089</span>
+            <!-- <div style="position: relative;">
+              <a href="#" class="dwd-link">VIEW LOCATION</a>
+            </div> -->
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="event-venue trade2 text-center">
+            {% asset iitm.jpg alt="IIT Madras" width="90%" %}
+            <div class="bg-color"></div>
+          </div>
+          <div class="address">
+            <h4><b>IITM RESEARCH PARK</b></h4>
+            <p>OCTOBER 14, 15</p>
+            <span>Kanagam Road, 32, Tharamani,<br />Chennai, Tamil Nadu 600113</span>
+            <!-- <div style="position: relative;">
+              <a href="#" class="dwd-link">VIEW LOCATION</a>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {% asset light-house.png alt="Light House" class="auto bg" %}
+</section>

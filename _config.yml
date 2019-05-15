@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: PyCon India 2019 in Chennai
+title: PyCon India 2019 in Chennai | October 12th to 15th
 description: >- # this means to ignore newlines until "baseurl:"
   PyCon India, the premier conference in India on using and developing the Python
   programming language is conducted annually by the Python developer community and
