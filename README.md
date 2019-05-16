@@ -30,9 +30,8 @@ website.
   the changes do not break anything. It will also provide you with a preview
   URL that you and the maintainers can use to preview your changes before they
   get merged.
-* Once a PR is approved and merged, our CI integration will automatically
-  deploy the merged changes to production. This takes 2-3 minutes to finish after
-  which your changes can be seen in [https://in.pycon.org/2019](https://in.pycon.org/2019).
+* Once a PR is approved and merged, we will manually move the changes to production. This
+  might take a few hours.
 
 ## Code of Conduct
 
