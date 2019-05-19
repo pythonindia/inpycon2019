@@ -993,11 +993,19 @@ a {
 
 @media screen and (min-width: 600px) and (max-width: 768px) {
   .navbar-nav {
-    float: left;
+    float: none;
   }
 
   .navbar-toggle {
     margin-top: 3.2%;
+  }
+
+  .navbar-default .navbar-nav>li>a {
+    text-align: center;
+  }
+
+  .nav>li>a {
+    padding: 15px 13px;
   }
 
   .navbar-brand {
