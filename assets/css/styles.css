@@ -68,6 +68,7 @@ section {
 
 .nav>li>a {
   padding: 30px 13px;
+  margin-top: 8px;
 }
 
 .navbar-default .navbar-nav>li>a:hover,
@@ -76,7 +77,8 @@ section {
 }
 
 .navbar-brand>img {
-  padding: 5px 0;
+  padding: 5px 5px;
+  margin-top: -2px;
 }
 
 .navbar-brand {
@@ -891,9 +893,13 @@ a {
   background: #dcdbdb !important;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   .navbar-brand {
-    width: 60%
+    width: 60%;
+  }
+
+  .navbar-toggle {
+    margin-top: 3.2%;
   }
 
   .navbar-default .navbar-nav>li>a {
@@ -988,6 +994,10 @@ a {
 @media screen and (min-width: 600px) and (max-width: 768px) {
   .navbar-nav {
     float: left;
+  }
+
+  .navbar-toggle {
+    margin-top: 3.2%;
   }
 
   .navbar-brand {
