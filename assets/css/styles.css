@@ -739,6 +739,7 @@ footer ul li a:hover {
 
 footer ul {
   padding-top: 40px;
+  margin-top: -25px;
 }
 
 footer .design-by {
@@ -746,6 +747,7 @@ footer .design-by {
   padding-top: 20px;
   margin: 0;
   font-size: 16px;
+  margin-top: -10px;
 }
 
 footer p {
