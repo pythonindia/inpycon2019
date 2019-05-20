@@ -5,13 +5,13 @@ nav: index
 ---
 
 <section class="pycon-banner wrapper">
-  {% asset banner-image alt="Banner-image" class="banner-img bg" %}
-  {% asset sun.png alt="Sun" class="circle loading bg" %}
-  {% asset cloud-small.png alt="Cloud" class="cloud1 bg" %}
-  {% asset cloud-small.png alt="Cloud" class="cloud-1 bg" %}
-  {% asset cloud-long.png alt="Cloud" class="cloud2 bg" %}
-  {% asset wind.png alt="Wind" class="wind bg" %}
-  {% asset wind.png alt="Wind" class="wind_1 bg" %}
+  {% asset banner-image alt="" class="banner-img bg" %}
+  {% asset sun.png alt="" class="circle loading bg" %}
+  {% asset cloud-small.png alt="" class="cloud1 bg" %}
+  {% asset cloud-small.png alt="" class="cloud-1 bg" %}
+  {% asset cloud-long.png alt="" class="cloud2 bg" %}
+  {% asset wind.png alt="" class="wind bg" %}
+  {% asset wind.png alt="" class="wind_1 bg" %}
 
   <div class="container">
     <div class="row">
@@ -36,7 +36,7 @@ nav: index
       </div>
     </div>
   </div>
-  {% asset tunnel-blue-entry.png alt="Tunnel" class="tunnel2 bg" %}
+  {% asset tunnel-blue-entry.png alt="" class="tunnel2 bg" %}
 </section>
 
 <section class="pycon-counter wrapper">
@@ -45,22 +45,22 @@ nav: index
       <div class="row text-center wow fadeInDown">
           <div class="col-md-4 text-center">
             <div class="con">
-              {% asset bracket-left.png class="sbac1" alt="Bracket" %}
+              {% asset bracket-left.png class="sbac1" alt="" %}
               <h4><b>CONFERENCE</b></h4>
               <h5>October 12, 13</h5>
               <h5 style="font-weight: 500">Chennai Trade center</h5>
-              {% asset bracket-right.png class="sbac2" alt="Bracket" %}
+              {% asset bracket-right.png class="sbac2" alt="" %}
             </div>
             <!-- <a class="buytic" href="#">Buy Tickets</a> -->
           </div>
 
           <div class="col-md-4 text-center">
             <div class="con">
-              {% asset bracket-left.png class="sbac1" alt="Bracket" %}
+              {% asset bracket-left.png class="sbac1" alt="" %}
               <h4><b>WORKSHOPS</b></h4>
               <h5>October 14</h5>
               <h5 style="font-weight: 500">IITM Research Park</h5>
-              {% asset bracket-right.png class="sbac2" alt="Bracket" %}
+              {% asset bracket-right.png class="sbac2" alt="" %}
             </div>
             <!-- <a class="buytic" href="#">Buy Tickets</a> -->
           </div>
@@ -68,11 +68,11 @@ nav: index
 
             <div class="col-md-4 text-center">
             <div class="con">
-              {% asset bracket-left.png class="sbac1" alt="Bracket" %}
+              {% asset bracket-left.png class="sbac1" alt="" %}
               <h4><b>DEV SPRINTS</b></h4>
               <h5>October 14, 15</h5>
               <h5 style="font-weight: 500">IITM Research Park</h5>
-              {% asset bracket-right.png class="sbac2" alt="Bracket" %}
+              {% asset bracket-right.png class="sbac2" alt="" %}
             </div>
             <!-- <a class="buytic" href="#">Buy Tickets</a> -->
           </div>
@@ -81,7 +81,7 @@ nav: index
     </div>
   </div>
 
-  {% asset yellowwind.png alt="Wind" class="wind-1 bg" %}
+  {% asset yellowwind.png alt="" class="wind-1 bg" %}
 </section>
 
 {% include keynote-speakers.html %}
@@ -93,7 +93,7 @@ nav: index
 {% comment %}{% include tickets.html %}{% endcomment %}
 
 <section class="latest-updates wrapper">
-  {% asset tunnel-white-exit.png alt="Tunnel" class="tunnel1 bg" %}
+  {% asset tunnel-white-exit.png alt="" class="tunnel1 bg" %}
 
   <div class="wow fadeIn">
     <div class="col-md-12 text-center">
@@ -117,12 +117,12 @@ nav: index
     </div>
   </div>
 
-  {% asset temple-tower-small.png alt="Temple Tower" class="ratinum bg" style="z-index: -1" %}
-  {% asset tunnel-white-entry.png alt="Tunnel" class="tunnel2 tunnel4 bg" %}
+  {% asset temple-tower-small.png alt="" class="ratinum bg" style="z-index: -1" %}
+  {% asset tunnel-white-entry.png alt="" class="tunnel2 tunnel4 bg" %}
 </section>
 
 <section class="pycon-tab events-venue wrapper" >
-  {% asset bluewind.png alt="wind" class="bluewind bg" style="left: 27%;top: -53px" %}
+  {% asset bluewind.png alt="" class="bluewind bg" style="left: 27%;top: -53px" %}
   <div class="row wow fadeIn">
     <div class="col-md-12 text-center">
       <h1>EVENT VENUE</h1>
@@ -164,5 +164,5 @@ nav: index
     </div>
   </div>
 
-  {% asset light-house.png alt="Light House" class="auto bg" %}
+  {% asset light-house.png alt="" class="auto bg" %}
 </section>
