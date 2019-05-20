@@ -1,7 +1,13 @@
 - name: "Ines Montani"
-  title: "Founder Explosion / spaCy core developer"
+  title: "Founder Explosion / spaCy Core Developer"
   introduction: "Ines is a developer specialising in applications for AI technology. 
     She’s the co-founder of Explosion and a core developer of spaCy, one of 
     the most popular libraries for Natural Language Processing in Python, 
     and Prodigy, an annotation tool for radically efficient machine teaching."
-  photo: "https://explosion.ai/assets/img/profile_ines.jpg"
+  photo: "ines-montani.jpg"
+- name: "David Beazley"
+  title: "Author of the Python Essential Reference and Python Cookbook"
+  introduction: "David Beazley is an independent computer scientist, educator, and
+  researcher living in Chicago. He is the author of the Python Cookbook (O'Reilly) and
+  Python Essential Reference (Addison-Wesley) and has been involved with Python since 1996."
+  photo: "david-beazley.jpg"
