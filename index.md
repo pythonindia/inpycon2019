@@ -140,7 +140,7 @@ nav: index
           <div class="address">
             <h4><b>CHENNAI TRADE CENTER</b></h4>
             <p>OCTOBER 12, 13</p>
-            <span>CTC Complex,<br /> Mount Poonamalle High Rd, Nandambakkam, Chennai, Tamil Nadu 6000089</span>
+            <span>CTC Complex,<br /> Mount Poonamalle High Rd, Nandambakkam, Chennai, Tamil Nadu 600089</span>
             <!-- <div style="position: relative;">
               <a href="#" class="dwd-link">VIEW LOCATION</a>
             </div> -->
