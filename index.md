@@ -29,8 +29,8 @@ nav: index
             </p>
           </div>
           <div class="text-center pycon-speakers-img dwd-buyticket" style="position: relative;">
-            <a href="https://in.pycon.org/cfp/2019/proposals/" class="dwd-link"><b>Submit A Talk</b></a>
-            <a href="https://in.pycon.org/cfp/workshops-2019/proposals/" class="dwd-link"><b>Submit A Workshop</b></a>
+            <a href="https://in.pycon.org/cfp/2019/proposals/" class="dwd-link"><strong>Submit A Talk</strong></a>
+            <a href="https://in.pycon.org/cfp/workshops-2019/proposals/" class="dwd-link"><strong>Submit A Workshop</strong></a>
           </div>
         </div>
       </div>
@@ -46,7 +46,7 @@ nav: index
           <div class="col-md-4 text-center">
             <div class="con">
               {% asset bracket-left.png class="sbac1" alt="" %}
-              <h4><b>CONFERENCE</b></h4>
+              <h4><strong>CONFERENCE</strong></h4>
               <h5>October 12, 13</h5>
               <h5 style="font-weight: 500">Chennai Trade center</h5>
               {% asset bracket-right.png class="sbac2" alt="" %}
@@ -57,7 +57,7 @@ nav: index
           <div class="col-md-4 text-center">
             <div class="con">
               {% asset bracket-left.png class="sbac1" alt="" %}
-              <h4><b>WORKSHOPS</b></h4>
+              <h4><strong>WORKSHOPS</strong></h4>
               <h5>October 14</h5>
               <h5 style="font-weight: 500">IITM Research Park</h5>
               {% asset bracket-right.png class="sbac2" alt="" %}
@@ -69,7 +69,7 @@ nav: index
             <div class="col-md-4 text-center">
             <div class="con">
               {% asset bracket-left.png class="sbac1" alt="" %}
-              <h4><b>DEV SPRINTS</b></h4>
+              <h4><strong>DEV SPRINTS</strong></h4>
               <h5>October 14, 15</h5>
               <h5 style="font-weight: 500">IITM Research Park</h5>
               {% asset bracket-right.png class="sbac2" alt="" %}
@@ -138,7 +138,7 @@ nav: index
             <div class="bg-color"></div>
           </div>
           <div class="address">
-            <h4><b>CHENNAI TRADE CENTER</b></h4>
+            <h4><strong>CHENNAI TRADE CENTER</strong></h4>
             <p>OCTOBER 12, 13</p>
             <span>CTC Complex,<br /> Mount Poonamalle High Rd, Nandambakkam, Chennai, Tamil Nadu 600089</span>
             <!-- <div style="position: relative;">
@@ -152,7 +152,7 @@ nav: index
             <div class="bg-color"></div>
           </div>
           <div class="address">
-            <h4><b>IITM RESEARCH PARK</b></h4>
+            <h4><strong>IITM RESEARCH PARK</strong></h4>
             <p>OCTOBER 14, 15</p>
             <span>Kanagam Road, 32, Tharamani,<br />Chennai, Tamil Nadu 600113</span>
             <!-- <div style="position: relative;">
