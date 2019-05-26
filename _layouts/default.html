@@ -11,9 +11,12 @@
 
   {% include navbar.html %}
 
-  <div class="{% if page.bloglike %}blog{% endif %}">
-    {{content}}
-  </div>
+  <main role="main">
+    <div class="{% if page.bloglike %}blog{% endif %}">
+      {% if page.bloglike %}<h1><strong>{{page.title}}</strong></h1>{% endif %}
+      {{content}}
+    </div>
+  </main>
 
   {% include footer.html %}
 
