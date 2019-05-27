@@ -3,7 +3,7 @@
 
 {% include head.html %}
 
-<body>
+<!-- <body> -->
   {% unless page.bloglike %}
     {% asset railway.png alt="" class="railway bg" %}
     {% asset train.png alt="" id="object" class="bg" %}
@@ -11,7 +11,7 @@
 
   {% include navbar.html %}
 
-  <div class="{% if page.bloglike %}blog{% endif %}">
+  <div class="{% if page.bloglike %}blog{% endif %}" id="main-content" tabindex="-1">
     {{content}}
   </div>
 

@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 {% include head.html %}
-<body>
 
   <main class="{% if page.bloglike %}blog{% endif %}">
     {% include navbar.html %}
@@ -10,7 +9,7 @@
       <h1>{{ page.header }}</h1>
     </div>
 
-    <div class="content">
+    <div class="content" id="main-content" tabindex="-1">
       {{ content }}
     </div>
 
