@@ -113,8 +113,9 @@ section {
 .dropdown-content {
   display: none;
   position: absolute;
+  margin-right: -120px;
   background-color: #f1f1f1;
-  min-width: 160px;
+  min-width: 180px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
@@ -132,6 +133,22 @@ section {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .dropdown {
+    position: static;
+  }
+
+  .dropdown-content {
+    position: static;
+    width: 180px;
+    margin: auto;
+  }
+  .dropdown-content a {
+    padding: 8px 10px;
+    text-align: center;
+  }
 }
 
 /*banner styles */
