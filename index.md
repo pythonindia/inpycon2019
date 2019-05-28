@@ -19,7 +19,7 @@ nav: index
       <div class="col-md-6">
         <div class="pycon-banner-text">
           <div class="text-center conference">
-            {% asset logo-lg.png alt="PyCon India 2019 Logo" width="100%" %}
+            <h1>{% asset logo-lg.png title="PyCon India 2019" alt="PyCon India 2019" width="100%" %}</h1>
             <p>
               The premier conference in India on using and
               developing the python programming language. Stay tuned
@@ -46,8 +46,8 @@ nav: index
           <div class="col-md-4 text-center">
             <div class="con">
               {% asset bracket-left.png class="sbac1" alt="" %}
-              <h4><strong>CONFERENCE</strong></h4>
-              <h5>October 12, 13</h5>
+              <h3><strong>CONFERENCE</strong></h3>
+              <h4>October 12, 13</h4>
               <h5 style="font-weight: 500">Chennai Trade center</h5>
               {% asset bracket-right.png class="sbac2" alt="" %}
             </div>
@@ -57,8 +57,8 @@ nav: index
           <div class="col-md-4 text-center">
             <div class="con">
               {% asset bracket-left.png class="sbac1" alt="" %}
-              <h4><strong>WORKSHOPS</strong></h4>
-              <h5>October 14</h5>
+              <h3><strong>WORKSHOPS</strong></h3>
+              <h4>October 14</h4>
               <h5 style="font-weight: 500">IITM Research Park</h5>
               {% asset bracket-right.png class="sbac2" alt="" %}
             </div>
@@ -69,8 +69,8 @@ nav: index
             <div class="col-md-4 text-center">
             <div class="con">
               {% asset bracket-left.png class="sbac1" alt="" %}
-              <h4><strong>DEV SPRINTS</strong></h4>
-              <h5>October 14, 15</h5>
+              <h3><strong>DEV SPRINTS</strong></h3>
+              <h4>October 14, 15</h4>
               <h5 style="font-weight: 500">IITM Research Park</h5>
               {% asset bracket-right.png class="sbac2" alt="" %}
             </div>
@@ -97,7 +97,7 @@ nav: index
 
   <div class="wow fadeIn">
     <div class="col-md-12 text-center">
-      <h1>LATEST UPDATES</h1>
+      <h2><strong>LATEST UPDATES</strong></h2>
     </div>
   </div>
   <br />
@@ -125,7 +125,7 @@ nav: index
   {% asset bluewind.png alt="" class="bluewind bg" style="left: 27%;top: -53px" %}
   <div class="row wow fadeIn">
     <div class="col-md-12 text-center">
-      <h1>EVENT VENUE</h1>
+      <h2><strong>EVENT VENUE</strong></h2>
     </div>
   </div>
   <br /><br /><br />
