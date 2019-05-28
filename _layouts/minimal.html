@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 {% include head.html %}
-
+  
+  <body>
+  <ul class="skip-main">
+    <li><a href="#main-content">Skip to Main Content</a></li>
+  </ul>
+  
   <main class="{% if page.bloglike %}blog{% endif %}">
     {% include navbar.html %}
 

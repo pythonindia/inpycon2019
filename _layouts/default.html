@@ -3,7 +3,11 @@
 
 {% include head.html %}
 
-<!-- <body> -->
+<body>
+  <ul class="skip-main">
+    <li><a href="#main-content">Skip to Main Content</a></li>
+  </ul>
+  
   {% unless page.bloglike %}
     {% asset railway.png alt="" class="railway bg" %}
     {% asset train.png alt="" id="object" class="bg" %}
