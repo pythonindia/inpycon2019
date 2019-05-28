@@ -102,6 +102,27 @@ section {
   border-radius: 5px;
 }
 
+.skip-main {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+.skip-main a{
+  position: absolute;
+  top: -50px;
+  color: #F2B10B;
+  background-color: #337AB7;
+  padding: 8px 8px;
+
+}
+
+.skip-main a:focus {
+  top: 0;
+  z-index: 99999;
+}
+
 /* Dropdown Button */
 
 .dropdown {
