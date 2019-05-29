@@ -121,7 +121,12 @@ If your report concerns all current (vice/co) chairs of the committee, please se
 Thank you for helping to make PyCon India a welcoming, friendly event for all.
 
 ## Contact Information
-
-
-
 If the matter is especially urgent, you may also ask to be put in touch with the conference chair - Vijay Kumar
+
+## License
+
+This Code of Conduct was forked from 
+1. "PSF Code of Conduct" by Python Software Foundation which is under a Creative Commons Attribution 3.0 Unported License 
+2. "Django Code of Conduct - Reporting Guide" by Django Software Foundation which is under a Creative Commons Attribution license.
+
+PyCon India Conference Code of Conduct is licensed under a Creative Commons Attribution 3.0 Unported License.
