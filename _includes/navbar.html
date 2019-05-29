@@ -30,7 +30,11 @@
               <a href="https://in.pycon.org/cfp/workshops-2019/proposals/">Submit a Workshop</a>
             </div>
           </li>
-          <li {% if page.nav == 'code-of-conduct' %}class="current"{% endif %}><a href="/2019/code-of-conduct.html">Code Of Conduct</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropbtn">About&nbsp;&nbsp;{% include icons/down-arrow.svg %}</a>
+	    <div class="dropdown-content">
+	      <a href="/2019/faq.html">FAQ</a>
+	      <a href="/2019/code-of-conduct.html">Code Of Conduct</a>
         </ul>
       </div>
     </div>
