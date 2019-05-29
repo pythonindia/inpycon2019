@@ -4,6 +4,11 @@
 {% include head.html %}
 
 <body>
+
+  <ul class="skip-main">
+    <li><a href="#main-content">Skip to Main Content</a></li>
+  </ul>
+
   {% unless page.bloglike %}
     {% asset railway.png alt="" class="railway bg" %}
     {% asset train.png alt="" id="object" class="bg" %}
@@ -11,9 +16,12 @@
 
   {% include navbar.html %}
 
-  <div class="{% if page.bloglike %}blog{% endif %}">
-    {{content}}
-  </div>
+  <main role="main" id="main-content" tabindex="-1">
+    <div class="{% if page.bloglike %}blog{% endif %}">
+      {% if page.bloglike %}<h1><strong>{{page.title}}</strong></h1>{% endif %}
+      {{content}}
+    </div>
+  </main>
 
   {% include footer.html %}
 
