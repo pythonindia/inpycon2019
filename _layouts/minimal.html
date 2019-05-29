@@ -3,6 +3,10 @@
 {% include head.html %}
 <body>
 
+  <ul class="skip-main">
+    <li><a href="#main-content">Skip to Main Content</a></li>
+  </ul>
+
   <main class="{% if page.bloglike %}blog{% endif %}">
     {% include navbar.html %}
 
@@ -10,7 +14,7 @@
       <h1>{{ page.header }}</h1>
     </div>
 
-    <div class="content">
+    <div class="content" id="main-content" tabindex="-1">
       {{ content }}
     </div>
 
