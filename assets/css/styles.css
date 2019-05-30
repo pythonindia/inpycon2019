@@ -133,7 +133,6 @@ section {
 .dropdown-content {
   display: none;
   position: absolute;
-  margin-right: -120px;
   background-color: #f1f1f1;
   min-width: 180px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
