@@ -9,7 +9,7 @@ bloglike: true
 
 PyCon India is the annual gathering of Pythonistas, run by the Indian
 Python community, to foster adoption of the Python programming
-lanaguage. PyCon India 2019, will take place in Chennai, between Oct
+language. PyCon India 2019, will take place in Chennai, between Oct
 12 and 15. This is 11th edition of the conference and about 1200
 people are expected to participate in this event, from all over the
 country.
@@ -127,9 +127,9 @@ conference. Can I get a refund?**
 Conference tickets cannot be cancelled, but instead can be
 transferred. The procedure to do so, will be updated shortly.
 
-**Q. Is accomodation included in the ticket?**
+**Q. Is accommodation included in the ticket?**
 
-No, it doesn't include accomodation.
+No, it doesn't include accommodation.
 
 **Q. I have bought the ticket for the morning workshop but I want to
 attend evening workshop can I do that?**
@@ -142,7 +142,7 @@ charges of the ticketing platform.
 No, there won't be any spot registrations available at the conference
 venue.
 
-**Q. Can I switch between the workshop in session time?**
+**Q. Can I switch between workshops during the session?**
 
 No. Each track is planned at their full capacity.
 
@@ -154,7 +154,7 @@ during registration to be eligible for the student ticket. So you
 should buy the regular ticket if you won't have your ID during the
 conference.
 
-## Conctact Us
+## Contact Us
 
 For general queries: [contact@in.pycon.org](mailto:contact@in.pycon.org)
 
