@@ -776,7 +776,11 @@ footer ul li a:hover {
 
 footer ul {
   padding-top: 40px;
-  margin-top: -19px;
+  margin-top: -25px;
+}
+
+footer a{
+  color: #F3B20D;
 }
 
 footer .design-by {
