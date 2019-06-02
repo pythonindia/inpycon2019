@@ -1,5 +1,5 @@
 <!-- TODO Convert this to be YML Based -->
-<section class="wrapper" style="background: white;">
+<section class="wrapper" style="background: white;" id="tickets">
   {% asset tunnel-white-exit.png alt="" class="tunnel1 bg" %}
   {% asset bluewind.png alt="" class="bluewind bg" style="left: 18%;top: -53px; z-index:9999;" %}
   <div class="row wow fadeIn">
@@ -8,44 +8,73 @@
     </div>
   </div>
   <br />
-  <div class="container">
+  <div class="container ticket-desktop">
     <div class="row wow fadeIn">
       <div class="col-md-12">
         <div class="table-responsive">
-        <table class="table table-striped">
-          <tbody>
-            {% for category in site.data.tickets %}
-              <tr>
-                <td>
-                  <h5><strong>{{category.type }}</strong></h5>
-                  <p>{{category.event_date}}</p>
-                  <p>
+          <table class="table table-striped">
+            <tbody>
+              {% for category in site.data.tickets %}
+                <tr>
+                  <td>
+                    <h5><strong>{{category.type }}</strong></h5>
+                    <p>{{category.event_date}}</p>
+                    <p>
+                      {% if category.open %}
+                        {{category.end_date}}
+                      {% else %}
+                        {{category.start_date}}
+                      {% endif %}
+                    </p>
+                  </td>
+                  <td>
+                    <h5><strong>₹{{category.cost}}</strong></h5>
+                    <p>(GST Applicable)</p>
+                  </td>
+                  <td style="position: relative;" class="dwd-schedule">
                     {% if category.open %}
-                      {{category.end_date}}
-                    {% else %}
-                      {{category.start_date}}
+                      <a href="https://www.townscript.com/e/pycon-india-2019/booking" target="_blank" rel="noreferrer noopener" class="dwd-link">
+                        <strong>BUY TICKETS</strong>
+                      </a>
                     {% endif %}
-                  </p>
-                </td>
-                <td>
-                  <h5><strong>₹{{category.cost}}</strong></h5>
-                  <p>(GST Applicable)</p>
-                </td>
-                <td style="position: relative;" class="dwd-schedule">
-                  {% if category.open %}
-                    <a href="https://www.townscript.com/e/pycon-india-2019/" target="_blank" rel="noreferrer noopener" class="dwd-link">
-                      <strong>BUY TICKETS</strong>
-                    </a>
-                  {% endif %}
-                </td>
-              </tr>
-            {% endfor %}
-          </tbody>
-        </table>
-      </div>
-        <!-- <p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</p> -->
+                  </td>
+                </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
+  </div>
+
+  <div class="container ticket-mobile">
+    {% for category in site.data.tickets %}
+      {% if category.open %}
+        <div class="row wow fadeIn">
+          <div class="col-md-12 light">
+            <h3><strong>{{category.type}}</strong></h3>
+            <p>
+              {{category.event_date}}
+              {% if category.open %}
+                {{category.end_date}}
+              {% else %}
+                {{category.start_date}}
+              {% endif %}
+            </p>
+
+            <p><strong>₹{{category.cost}} (GST Applicable)</strong></p>
+
+            <p class="buy-ticket">
+              {% if category.open %}
+                <a href="https://www.townscript.com/e/pycon-india-2019/booking" target="_blank" rel="noreferrer noopener" class="dwd-link">
+                  <strong>BUY TICKETS</strong>
+                </a>
+              {% endif %}
+            </p>
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
   </div>
   {% asset tunnel-white-entry.png alt="" class="tunnel2 tunnel4 bg" %}
 </section>

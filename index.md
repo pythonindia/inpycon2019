@@ -31,7 +31,7 @@ nav: index
           <div class="text-center pycon-speakers-img dwd-buyticket" style="position: relative;">
             <a href="https://in.pycon.org/cfp/2019/proposals/" class="dwd-link"><strong>Submit A Talk</strong></a>
             <a href="https://in.pycon.org/cfp/workshops-2019/proposals/" class="dwd-link"><strong>Submit A Workshop</strong></a>
-            <a href="https://www.townscript.com/e/pycon-india-2019/" target="_blank" rel="noreferrer noopener" class="dwd-link"><strong>Buy A Ticket</strong></a>
+            <a href="/2019/#tickets" rel="noreferrer noopener" class="dwd-link"><strong>Buy A Ticket</strong></a>
           </div>
         </div>
       </div>

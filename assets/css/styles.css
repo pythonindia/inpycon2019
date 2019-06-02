@@ -185,7 +185,6 @@ section {
 }
 
 .conference p {
-
   color: #031335;
   font-weight: 700;
 }
@@ -663,6 +662,26 @@ table a:before {
   width: 100% !important;
 }
 
+.buy-ticket a {
+  background: #051237;
+  padding: 10px 15px;
+  color: #fff;
+  display: inline-block;
+  position: relative;
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.buy-ticket a:before {
+  content: "";
+  position: absolute;
+  background: #f2b10b;
+  height: 5px;
+  top: -8px;
+  left: 0;
+  width: 100% !important;
+}
+
 td {
   padding: 10px 15px !important;
 }
@@ -940,6 +959,15 @@ a {
   background: #dcdbdb !important;
 }
 
+.ticket-mobile,
+.ticket-desktop {
+  margin-bottom: 50px;
+}
+
+.ticket-mobile {
+  display: none;
+}
+
 @media screen and (max-width: 600px) {
   .navbar-brand {
     width: 60%;
@@ -1072,6 +1100,14 @@ a {
   .bg {
     display: none;
   }
+
+  .ticket-desktop {
+    display: none;
+  }
+
+  .ticket-mobile {
+    display: block;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -1163,6 +1199,10 @@ a {
 .small {
   font-size: 14px;
   font-weight: lighter;
+}
+
+.light, .light p {
+  font-weight: 400;
 }
 
 .wrapper {
