@@ -31,12 +31,13 @@ nav: index
           <div class="text-center pycon-speakers-img dwd-buyticket" style="position: relative;">
             <a href="https://in.pycon.org/cfp/2019/proposals/" class="dwd-link"><strong>Submit A Talk</strong></a>
             <a href="https://in.pycon.org/cfp/workshops-2019/proposals/" class="dwd-link"><strong>Submit A Workshop</strong></a>
+            <a href="https://www.townscript.com/e/pycon-india-2019/" target="_blank" rel="noreferrer noopener" class="dwd-link"><strong>Buy A Ticket</strong></a>
           </div>
         </div>
       </div>
     </div>
   </div>
-  {% asset tunnel-blue-entry.png alt="" class="tunnel2 bg" %}
+  {% asset tunnel-blue-entry.png alt="" class="tunnel2 bg" style="bottom: -5px;" %}
 </section>
 
 <section class="pycon-counter wrapper">
@@ -90,11 +91,9 @@ nav: index
 
 {% include sponsors.html %}
 
-{% comment %}{% include tickets.html %}{% endcomment %}
+{% include tickets.html %}
 
-<section class="latest-updates wrapper">
-  {% asset tunnel-white-exit.png alt="" class="tunnel1 bg" %}
-
+<section class="latest-updates wrapper pycon-tab">
   <div class="wow fadeIn">
     <div class="col-md-12 text-center">
       <h2><strong>LATEST UPDATES</strong></h2>
@@ -118,11 +117,11 @@ nav: index
   </div>
 
   {% asset temple-tower-small.png alt="" class="ratinum bg" style="z-index: -1" %}
-  {% asset tunnel-white-entry.png alt="" class="tunnel2 tunnel4 bg" %}
 </section>
 
-<section class="pycon-tab events-venue wrapper" >
-  {% asset bluewind.png alt="" class="bluewind bg" style="left: 27%;top: -53px" %}
+<section class="events-venue wrapper" >
+  {% asset tunnel-white-exit.png alt="" class="tunnel1 bg" %}
+  {% asset bluewind.png alt="" class="bluewind bg" style="left: 27%;top: -53px; z-index: 9999;" %}
   <div class="row wow fadeIn">
     <div class="col-md-12 text-center">
       <h2><strong>EVENT VENUE</strong></h2>
@@ -165,4 +164,5 @@ nav: index
   </div>
 
   {% asset light-house.png alt="" class="auto bg" %}
+  {% asset tunnel-blue-entry.png alt="" class="tunnel2 bg" style="bottom: -5px;" %}
 </section>

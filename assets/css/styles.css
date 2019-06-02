@@ -629,13 +629,12 @@ section {
   width: 15%;
 }
 
-.pycon-tab table {
+table {
   background: #fff;
-  box-shadow: 0px 0px 20px 2px #d4d4d4;
-
+  border: 1px solid #ddd;
 }
 
-.pycon-tab table h5 {
+table h5 {
   font-size: 18px;
   color: #439de9;
 }
@@ -644,7 +643,7 @@ table h3 {
   color: #f2b10b;
 }
 
-.pycon-tab table a,
+table a,
 .address a {
   background: #051237;
   padding: 10px 25px;
@@ -654,7 +653,7 @@ table h3 {
   position: relative;
 }
 
-.pycon-tab table a:before {
+table a:before {
   content: "";
   position: absolute;
   background: #f2b10b;
@@ -662,6 +661,10 @@ table h3 {
   top: -8px;
   left: 0;
   width: 100% !important;
+}
+
+td {
+  padding: 10px 15px !important;
 }
 
 #pycon-tab,
@@ -886,6 +889,7 @@ a {
 .dwd-link:hover,
 .pycon-tab table a:hover {
   background: #439de9;
+  color: white;
 }
 
 .current a {
@@ -966,10 +970,6 @@ a {
 
   .nav>li>a {
     padding: 15px 13px;
-  }
-
-  .bg {
-    display: none;
   }
 
   .buytic {
@@ -1065,6 +1065,12 @@ a {
 
   .navbar-header {
     float: none;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .bg {
+    display: none;
   }
 }
 
