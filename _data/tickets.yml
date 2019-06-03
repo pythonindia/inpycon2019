@@ -6,12 +6,12 @@
 - type: Early Bird Ticket
   event_date: Conference ticket for 12 and 13 October 2019.
   end_date: Sales end by 1 July 2019 or on the sale of 300 .tickets, whichever is earlier
-  open: true
+  open: false
   cost: 1100
 - type: Regular Ticket
   event_date: Conference ticket for 12 and 13 October 2019.
-  start_date: Sales start on 1 July 2019.
-  open: false
+  end_date: Sales end by 1 September 2019.
+  open: true
   cost: 1600
 - type: Late Bird Ticket
   event_date: Conference ticket for 12 and 13 October 2019.
