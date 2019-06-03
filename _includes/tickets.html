@@ -12,6 +12,7 @@
     <div class="row wow fadeIn">
       <div class="col-md-12">
         <div class="table-responsive">
+          <h3 class="text-center color-heading">Conference</h3>
           <table class="table table-striped">
             <tbody>
               {% for category in site.data.tickets %}
@@ -48,6 +49,12 @@
   </div>
 
   <div class="container ticket-mobile">
+    <div class="row wow fadeIn">
+      <div class="col-md-12">
+        <h3 class="color-heading"><strong>Conference</strong></h3>
+      </div>
+    </div>
+    <br>
     {% for category in site.data.tickets %}
       {% if category.open %}
         <div class="row wow fadeIn">
