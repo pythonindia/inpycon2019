@@ -16,7 +16,7 @@
             <tbody>
               {% for category in site.data.tickets %}
                 <tr>
-                  <td>
+                  <td class="col-md-6">
                     <h5><strong>{{category.type }}</strong></h5>
                     <p>{{category.event_date}}</p>
                     <p>
@@ -27,15 +27,19 @@
                       {% endif %}
                     </p>
                   </td>
-                  <td>
+                  <td class="col-md-2" style="vertical-align:middle;">
                     <h5><strong>₹{{category.cost}}</strong></h5>
                     <p>(GST Applicable)</p>
                   </td>
-                  <td style="position: relative;" class="dwd-schedule">
+                  <td style="position: relative;{% if category.sold_out %}vertical-align:middle;{% endif %}" class="dwd-schedule col-md-3 text-center">
                     {% if category.open %}
                       <a href="https://www.townscript.com/e/pycon-india-2019/booking" target="_blank" rel="noreferrer noopener" class="dwd-link">
                         <strong>BUY TICKETS</strong>
                       </a>
+                    {% else %}
+                      {% if category.sold_out %}
+                        <strong style="color:red;">SOLD OUT</strong>
+                      {% endif %}
                     {% endif %}
                   </td>
                 </tr>
