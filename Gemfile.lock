@@ -55,6 +55,7 @@ GEM
       sass (~> 3.4)
     jekyll-watch (2.1.2)
       listen (~> 3.0)
+    jekyll-webp (1.0.0)
     kramdown (1.17.0)
     liquid (4.0.3)
     liquid-tag-parser (1.9.0)
@@ -98,7 +99,8 @@ DEPENDENCIES
   jekyll (~> 3.7.2)
   jekyll-assets
   jekyll-feed (~> 0.6)
+  jekyll-webp
   tzinfo-data
 
 BUNDLED WITH
-   1.16.1
+   2.0.1
