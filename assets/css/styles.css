@@ -185,7 +185,6 @@ section {
 }
 
 .conference p {
-
   color: #031335;
   font-weight: 700;
 }
@@ -629,13 +628,12 @@ section {
   width: 15%;
 }
 
-.pycon-tab table {
+table {
   background: #fff;
-  box-shadow: 0px 0px 20px 2px #d4d4d4;
-
+  border: 1px solid #ddd;
 }
 
-.pycon-tab table h5 {
+table h5 {
   font-size: 18px;
   color: #439de9;
 }
@@ -644,7 +642,7 @@ table h3 {
   color: #f2b10b;
 }
 
-.pycon-tab table a,
+table a,
 .address a {
   background: #051237;
   padding: 10px 25px;
@@ -654,7 +652,7 @@ table h3 {
   position: relative;
 }
 
-.pycon-tab table a:before {
+table a:before {
   content: "";
   position: absolute;
   background: #f2b10b;
@@ -662,6 +660,30 @@ table h3 {
   top: -8px;
   left: 0;
   width: 100% !important;
+}
+
+.buy-ticket a {
+  background: #051237;
+  padding: 10px 15px;
+  color: #fff;
+  display: inline-block;
+  position: relative;
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.buy-ticket a:before {
+  content: "";
+  position: absolute;
+  background: #f2b10b;
+  height: 5px;
+  top: -8px;
+  left: 0;
+  width: 100% !important;
+}
+
+td {
+  padding: 10px 15px !important;
 }
 
 #pycon-tab,
@@ -886,6 +908,7 @@ a {
 .dwd-link:hover,
 .pycon-tab table a:hover {
   background: #439de9;
+  color: white;
 }
 
 .current a {
@@ -936,6 +959,15 @@ a {
   background: #dcdbdb !important;
 }
 
+.ticket-mobile,
+.ticket-desktop {
+  margin-bottom: 50px;
+}
+
+.ticket-mobile {
+  display: none;
+}
+
 @media screen and (max-width: 600px) {
   .navbar-brand {
     width: 60%;
@@ -966,10 +998,6 @@ a {
 
   .nav>li>a {
     padding: 15px 13px;
-  }
-
-  .bg {
-    display: none;
   }
 
   .buytic {
@@ -1068,6 +1096,20 @@ a {
   }
 }
 
+@media screen and (max-width: 780px) {
+  .bg {
+    display: none;
+  }
+
+  .ticket-desktop {
+    display: none;
+  }
+
+  .ticket-mobile {
+    display: block;
+  }
+}
+
 @media screen and (max-width: 991px) {
 
   .sponsors h4 {
@@ -1157,6 +1199,10 @@ a {
 .small {
   font-size: 14px;
   font-weight: lighter;
+}
+
+.light, .light p {
+  font-weight: 400;
 }
 
 .wrapper {
