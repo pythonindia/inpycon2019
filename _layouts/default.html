@@ -65,7 +65,7 @@
       $(function () {
           $(window).scroll(function () {
               var scroll_position = $(window).scrollTop();
-              var object_position_left = window_width * (scroll_position / (document_height + 400));
+              var object_position_left = window_width * (scroll_position / (document_height + document_height/10));
               $('#object').css({
                   'top': object_position_left,
                   'transition': '0.6s'
