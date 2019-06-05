@@ -83,7 +83,7 @@ posted on our [Twitter](https://twitter.com/pyconindia),
 **Q. I want to present at the conference. What should I do?**
 
 Call for Proposals is now open. Please visit the [CFP
-page](https://in.pycon.org/cfp/) to submit your talk / workshop /
+page](/2019/submit-a-proposal.html) to submit your talk / workshop /
 poster proposal.
 
 **Q. I want to volunteer for the conference. What should I do?**
