@@ -22,46 +22,46 @@ PyCon India 2019 is actually 3 events rolled into one mega event.
   
   * Developer Sprints
 
-The Conference Days are on Oct 12 and 13, 2019 at the Chennai Trade
+The **Conference Days** are on Oct 12 and 13, 2019 at the Chennai Trade
 Centre. On the conference days, people connect with each other,
 discuss their experiences and present their ideas.
 
-  * Talks with slides is where people do a 25 min talk, on a
+  * **Talks with slides** is where people do a 25 min talk, on a
     topic. These talks are selected through a CFP process, before the
     event. There will be 3 talk tracks, where presentations will
     happen in parallel.
 
-  * Poster session is a 1-hour session, right after the lunch break,
+  * **Poster session** is a 1-hour session, right after the lunch break,
     on the first day of the conference. One of the halls is
     temporarily converted into a poster exhibition hall, where
     presenters use a graphic poster and a laptop to present their
     topic.
   
-  * Open spaces is where people have informal presentations and
+  * **Open spaces** is where people have informal presentations and
     discussions along side the talk tracks. Open spaces slots can be
     booked at the venue, on the day of the event.
 
-  * Lightning talks is a 1-hour session, right after the lunch break,
+  * **Lightning talks** is a 1-hour session, right after the lunch break,
     on the second day of the conference. Lightning talks are rapid 5
     min presentations, that is presented to the entire conference
     crowd, a great way to get a message across to the entire audience.
 
-  * Sponsor stalls are where you can meet companies supporting the
+  * **Sponsor stalls** are where you can meet companies supporting the
     conference. These companies use Python and are looking for Python
     developers. You can visit their stalls to get to know more about
     them, and the openings in their organization.
 
-The Workshop Day is on Oct 14, 2019 at the IITM Research Park. (Please
+The **Workshop Day** is on Oct 14, 2019 at the IITM Research Park. (Please
 note that Workshop overlaps with Devsprints) On the workshop day,
 people can attend hands-on workshops, and learn about a topic from an
-expert. A separate ticket needs to be purchased for each workshop you
-would like to attend.
+expert. *A separate ticket needs to be purchased for each workshop you
+would like to attend.*
 
-The Developer Sprints is on Oct 14 and 15, 2019 at the IITM Research
+The **Developer Sprints** is on Oct 14 and 15, 2019 at the IITM Research
 Park. During the Devsprints people contribute to open source projects,
 guided by mentors. This is a nice way to get started with contributing
-to Python and other open source projects. A separate ticket is
-required to attend the Devsprints.
+to Python and other open source projects. *A separate ticket is
+required to attend the Devsprints.*
 
 ## General FAQ
 
