@@ -4,33 +4,21 @@
       <div class="col-md-3 text-center">
         <ul class="list-inline">
           <li><a target="_blank" href="https://www.facebook.com/PyConIndia/">
-            <picture>
-              {% srcset fb.webp %}
-              {% asset fb.png alt="Facebook" %}
-            </picture>
+            {% picture src=fb alt="Facebook"%}
           </a></li>
           <li><a target="_blank" href="https://twitter.com/pyconindia">
-            <picture>
-              {% srcset tw.webp %}
-              {% asset tw.png alt="Twitter" %}
-            </picture>
+            {% picture src=tw alt="Twitter"%}
           </a></li>
         </ul>
         <a target="_blank" href="mailto:contact@in.pycon.org">contact@in.pycon.org</a>
       </div>
       <div class="col-md-6 text-center">
-        <picture>
-            {% srcset logo-small.png %}
-            {% asset logo-small.png alt="PyCon India 2019 Logo" width="70%" %}
-        </picture>
+          {% picture src=logo-small alt="Twitter" width="70%"%}
       </div>
       <div class="col-md-3 text-center">
         <p class="design-by">Design by</p>
         <a target="_blank" href="http://webchirpy.com">
-          <picture>
-            {% srcset wclogo.png %}
-            {% asset wclogo.png alt="Webchirpy Logo" width="40%" %}
-          </picture>
+          {% picture src=wclogo alt="Webchirpy Logo" width="40%"%}
         </a>
       </div>
     </div>
