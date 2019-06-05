@@ -163,6 +163,20 @@ during registration to be eligible for the student ticket. So you
 should buy the regular ticket if you won't have your ID during the
 conference.
 
+**Q. What is a contributor ticket?**
+
+PyCon India is a conference run with contributions from volunteers and
+supporters from the community. Hence, as organizers, we provide
+multiple avenues for people to contribute to the event. People can
+contribute their time by volunteering in the various conference
+activities. People can also make a financial contribution by
+purchasing a contributor ticket.
+
+Contributor tickets helps us meet the expenses of running the
+conference, and in the long run can reduce the dependence on
+sponsors. People who purchase a contributor ticket will be credited in
+our blog, towards the end of the conference.
+
 ## Contact Us
 
 For general queries: [contact@in.pycon.org](mailto:contact@in.pycon.org)
