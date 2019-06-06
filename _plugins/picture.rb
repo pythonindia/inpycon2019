@@ -7,13 +7,19 @@ class RenderTimeTag < Liquid::Tag
     end
 
     def render(context)
-        width = "width=#{@args[:width]}"
+        attributes = ""
+        @args.each do |key, value|
+            if key == :src
+                attributes.concat("#{key}='./assets/images/#{value}.png'")
+            else
+                attributes.concat("#{key}='#{value}' ");
+            end
+        end
         tag = "<picture>
         <source srcset='./assets/images/#{@args[:src]}.webp' type='image/webp'>
-        <img src='./assets/images/#{@args[:src]}.png' alt='#{@args[:alt] unless @args[:alt].nil?}' #{width unless @args[:width].nil?}>
+        <img #{attributes}>
         </picture>
         "
-
         return tag
     end
 end
