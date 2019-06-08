@@ -22,7 +22,7 @@
   cost: 2000
 - type: Contributor Ticket
   event_date: Conference only ticket for 12 and 13 October 2019.
-  end_date: Sales start on 12 October 2019.
+  end_date: Sales end by 12 October 2019.
   open: true
   cost: 5000
 - type: Workshop Ticket(Morning)
