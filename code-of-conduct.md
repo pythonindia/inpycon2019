@@ -6,7 +6,6 @@ bloglike: true
 nav: code-of-conduct
 ---
 
-# Code Of Conduct
 ## The Short Form
 We invite you to come to PyCon India 2019 in a spirit of curiosity, friendliness, open-mindedness, and respect. We will not tolerate harassment in any form.
 
@@ -29,6 +28,8 @@ We value the participation of every member of the Python community and want all 
 ### Where
 This Code of Conduct applies to the venue of PyCon India 2019 Conference, pre-event & post-event informal gatherings, related online forums and all conference related events, whether officially organized by PyCon India or not.
 
+### Who
+This is applicable to speakers, participants, exhibitors, sponsors and all other attendees.
 
 ### Aim
 PyCon India 2019 welcomes and is dedicated to providing a harassment-free conference experience for everyone, regardless of age, gender, sexual orientation, physical appearance, disability, neurotype, race, religion, political opinion, culture or employment. We don’t tolerate harassment of attendees in any form.
@@ -46,46 +47,28 @@ We believe in the broad spectrum of individual and collective experience and in 
 
 * Offensive verbal comments related to gender, sexual orientation, disability, physical appearance, body size, race, religion
 * Violent threats or language directed against another person.
-* Swearing, insults and discriminatory jokes and language.
+* Swearing, insults or discriminatory/exclusionary/offensive jokes or language.
 * Deliberate intimidation, stalking, following, harassing photography or recording
 * Sustained disruption of talks or other event
-* Posting sexually explicit or violent material. Sexual language or imagery is inappropriate for all aspects of the conference, including talks
+* Posting sexually explicit or violent material. Sexual language or imagery is inappropriate for all aspects of the conference, including talks and exhibits.
 * Posting (or threatening to post) other people's personally identifying information ("doxing").
 * Personal insults, especially those using racist or sexist terms.
 * Unwelcome sexual attention or inappropriate physical contact.
 * Advocating for, or encouraging, any of the above behavior.
 * Repeated harassment of others. In general, if someone asks you to stop, then stop.
-
-
+* Avoid use of sexuaalized clothing/uniforms/costumes, or otherwise create a sexualized environment.
 
 We have zero tolerance on harassment of conference participants in any form, including, but not limited to the activities mentioned here.
 
 Participants asked to stop any harassing behavior are expected to comply immediately.
 
-### Code for Speakers
-
-Sexual language or imagery is inappropriate for your talks or slides. Refrain from using sexist, racist or exclusionary language anywhere in your content.
-
-### Code for Exhibitors and Sponsors
-
-Exhibitors in the expo hall, sponsor or vendor booths, are subject to the anti-harassment policy.
-
-Exhibitors should not use sexualized images, activities, or other material.
-
-Booth staff (including volunteers) should not use sexualized clothing/uniforms/costumes, or otherwise create a sexualized environment.
-
-### Code for Participants
-
-Be kind and sensitive to the people around you and avoid any kind of offensive behavior. Sexist, racist or any other form of exclusionary or offensive jokes or excessive public swearing are not appropriate at any venue of PyCon India.
-
-
 ## Reporting Guide
 
 If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a member of conference staff. Conference staff will be wearing “PyCon India Staff” or “PyCon India Volunteer” badges. The detailed instructions on how reporting of violations will be handled and the steps for resolution, please check the <a href="https://in.pycon.org/2019/reporting-guide.html"> Reporting Guide</a>.
 
-## Contact Information
+### Contact Information
 
-If the matter is especially urgent, you may also ask to be put in touch with the conference chair - Vijay Kumar
+In case you are not able to locate a conference staff or you would prefer to report over email, please send your repors to report@in.pycon.org. We will also post a direct phone number shortly. If the matter is especially urgent, you may also ask to be put in touch with the diversity chair - Sharmila Gopirajan
 
 ## License
 
