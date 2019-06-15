@@ -130,11 +130,53 @@ the devsprints. There is limited space at the venue, and the token
 fee, is just to ensure that the ticket registrations are taken
 seriously.
 
+<a name="transfer-ticket"></a>
 **Q. There is a change in my plan so I can't attend the
 conference. Can I get a refund?**
 
 Conference tickets cannot be cancelled, but instead can be
-transferred. The procedure to do so, will be updated shortly.
+transferred.
+
+If you are already registered on Townscript:
+
+  1. Click [here to sign in to Townscript](https://www.townscript.com/signin)
+  
+  2. Enter the email ID with which you had booked your ticket. The
+     email ID should be same as registered on your Townscript account.
+  
+  3. Enter your password and login into your account.
+  
+  4. Click on "ATTENDING EVENTS -> My Bookings" on the drop-down
+     button in the top right corner - profile photo.
+  
+  5. Click on "Edit Ticket" or "Transfer Ticket" button below your
+     purchased ticket to edit or transfer your ticket.
+
+If you are not registered on Townscript :
+
+  1. Click [here to signup on Townscript](https://www.townscript.com/signup)
+  
+  2. Enter the email ID with which you booked your ticket.
+  
+  3. Enter a password. You will receive a verification email in your
+     inbox.
+  
+  4. Click on the verification link received in your inbox for the
+     email ID you provided.
+  
+  5. You will be automatically directed to your Townscript account
+     page.
+  
+  6. Click on "ATTENDING EVENTS -> My Bookings" on the drop-down
+     button in the top right corner - profile photo.
+  
+  7. Click on "Edit Ticket" or "Transfer Ticket" button below your
+     purchased ticket to edit or transfer your ticket.
+
+**Q. How do I edit the spelling of my name or the T-Shirt size on my ticket?**
+
+Follow the procedure given in [the question regarding transferring
+tickets](#transfer-ticket).
 
 **Q. Is accommodation included in the ticket?**
 
