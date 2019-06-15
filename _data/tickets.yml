@@ -25,12 +25,12 @@
   end_date: Sales end by 12 October 2019.
   open: true
   cost: 5000
-- type: Workshop Ticket(Morning)
+- type: Workshop Ticket (Morning)
   event_date: Workshop only ticket for the morning workshop of 14 October 2019.
   start_date: Sales start on 1 August 2019.
   open: false
   cost: 750
-- type: Workshop Ticket(Afternoon)
+- type: Workshop Ticket (Afternoon)
   event_date: Workshop only ticket for the afternoon workshop of 14 October 2019.
   start_date: Sales start on 1 August 2019.
   open: false
