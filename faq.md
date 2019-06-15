@@ -65,7 +65,7 @@ required to attend the Devsprints.*
 
 ## General FAQ
 
-**Q. Where can I find updates related to PyCon India 2019?**
+### Q. Where can I find updates related to PyCon India 2019?
 
 All announcements related to the conference are posted to [PyCon India
 Announce mailing
@@ -80,13 +80,13 @@ posted on our [Twitter](https://twitter.com/pyconindia),
 [LinkedIn](https://linkedin.com/company/pyconindia) and
 [Facebook](https://www.facebook.com/PyConIndia/) pages.
 
-**Q. I want to present at the conference. What should I do?**
+### Q. I want to present at the conference. What should I do?
 
 Call for Proposals is now open. Please visit the [CFP
 page](/2019/submit-a-proposal.html) to submit your talk / workshop /
 poster proposal.
 
-**Q. I want to volunteer for the conference. What should I do?**
+### Q. I want to volunteer for the conference. What should I do?
 
 Check out the [Volunteer
 Page](https://in.pycon.org/blog/2019/volunteering-for-pycon-india-2019.html)
@@ -94,7 +94,7 @@ to know about the roles and responsibilities. Fill the volunteer form
 and subscribe to the [InPyCon mailing
 list](https://mail.python.org/mailman/listinfo/inpycon) for updates.
 
-**Q. Will the Internet and WiFi setup be good enough for a large crowd? Should I get a datacard?**
+### Q. Will the Internet and WiFi setup be good enough for a large crowd? Should I get a datacard?
 
 We try really hard to arrange good Internet at the venue. Most of the
 times it is adequate. But the unpredictable amount of usage during the
@@ -103,12 +103,12 @@ data card, but there is no harm in being prepared for the worst.
 
 ## Ticketing FAQ
 
-**Q. I am a speaker / volunteer at the conference. Do I need to buy a ticket?**
+### Q. I am a speaker / volunteer at the conference. Do I need to buy a ticket?
 
 Yes. At PyCon India, everybody buys tickets. Even the event organizers
 buy tickets. Your ticket helps keep the event affordable for all.
 
-**Q. What does the Conference ticket (Oct 12 and Oct 13, 2019) include?**
+### Q. What does the Conference ticket (Oct 12 and Oct 13, 2019) include?
 
   * A full conference pass for two days that includes access to all
     keynotes, talks, poster session, lightning talks and open spaces.
@@ -119,11 +119,11 @@ buy tickets. Your ticket helps keep the event affordable for all.
   
   * PyCon India T-shirt and goodies
 
-**Q. Is there a different ticket for the Workshops?**
+### Q. Is there a different ticket for the Workshops?
 
 Yes. A separate ticket has to be purchased for each workshop.
 
-**Q. Is there a different ticket for the Devsprints?**
+### Q. Is there a different ticket for the Devsprints?
 
 Yes. A separate ticket, involving a token fee, has to be purchased for
 the devsprints. There is limited space at the venue, and the token
@@ -131,8 +131,7 @@ fee, is just to ensure that the ticket registrations are taken
 seriously.
 
 <a name="transfer-ticket"></a>
-**Q. There is a change in my plan so I can't attend the
-conference. Can I get a refund?**
+### Q. There is a change in my plan so I can't attend the conference. Can I get a refund?
 
 Conference tickets cannot be cancelled, but instead can be
 transferred.
@@ -173,40 +172,38 @@ If you are not registered on Townscript :
   7. Click on "Edit Ticket" or "Transfer Ticket" button below your
      purchased ticket to edit or transfer your ticket.
 
-**Q. How do I edit the spelling of my name or the T-Shirt size on my ticket?**
+### Q. How do I edit the spelling of my name or the T-Shirt size on my ticket?
 
 Follow the procedure given in [the question regarding transferring
 tickets](#transfer-ticket).
 
-**Q. Is accommodation included in the ticket?**
+### Q. Is accommodation included in the ticket?
 
 No, it doesn't include accommodation.
 
-**Q. I have bought the ticket for the morning workshop but I want to
-attend evening workshop can I do that?**
+### Q. I have bought the ticket for the morning workshop but I want to attend evening workshop can I do that?
 
 Please cancel the ticket and re-register (Unlike conference tickets,
 workshop tickets can be cancelled). You will just incur the charges of
 the ticketing platform.
 
-**Q. Would there be any spot registration at the venue?**
+### Q. Would there be any spot registration at the venue?
 
 No, there won't be any spot registrations available at the conference
 venue.
 
-**Q. Can I switch between workshops during the session?**
+### Q. Can I switch between workshops during the session?
 
 No. Each track is planned at their full capacity.
 
-**Q. I am a student who is graduating this year before the conference
-date. Which ticket should I buy?**
+### Q. I am a student who is graduating this year before the conference date. Which ticket should I buy?
 
 Students should show their valid ID card on the day of the conference
 during registration to be eligible for the student ticket. So you
 should buy the regular ticket if you won't have your ID during the
 conference.
 
-**Q. What is a contributor ticket?**
+### Q. What is a contributor ticket?
 
 PyCon India is a conference run with contributions from volunteers and
 supporters from the community. Hence, as organizers, we provide
