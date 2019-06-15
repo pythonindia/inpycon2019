@@ -143,8 +143,9 @@ No, it doesn't include accommodation.
 **Q. I have bought the ticket for the morning workshop but I want to
 attend evening workshop can I do that?**
 
-Please cancel the ticket and re-register. You will just incur the
-charges of the ticketing platform.
+Please cancel the ticket and re-register (Unlike conference tickets,
+workshop tickets can be cancelled). You will just incur the charges of
+the ticketing platform.
 
 **Q. Would there be any spot registration at the venue?**
 
