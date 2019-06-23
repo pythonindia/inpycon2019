@@ -109,7 +109,7 @@ organizers.
   * Repeated harassment of others. In general, if someone asks you to
     stop, then stop.
   
-  * Avoid use of sexuaalized clothing/uniforms/costumes, or otherwise
+  * Avoid use of sexualized clothing/uniforms/costumes, or otherwise
     create a sexualized environment.
 
 We have zero tolerance on harassment of conference participants in any
