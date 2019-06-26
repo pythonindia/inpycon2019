@@ -86,13 +86,13 @@ nav: index
 
 {% include keynote-speakers.html %}
 
-{% comment %}{% include schedule.html %}{% endcomment %}
-
 {% include sponsors.html %}
 
 {% include tickets.html %}
 
-<section class="latest-updates wrapper pycon-tab">
+{% include schedule.html %}
+
+<section class="latest-updates wrapper">
   <div class="wow fadeIn">
     <div class="col-md-12 text-center">
       <h2><strong>LATEST UPDATES</strong></h2>
@@ -114,12 +114,12 @@ nav: index
       </div>
     </div>
   </div>
-
+  {% asset tunnel-white-exit.png alt="" class="tunnel1 bg" %}
   {% asset temple-tower-small.png alt="" class="ratinum bg" style="z-index: -1" %}
+  {% asset tunnel-white-entry.png alt="" class="tunnel2 tunnel4 bg" style="bottom: -5px;" %}
 </section>
 
-<section class="events-venue wrapper" >
-  {% asset tunnel-white-exit.png alt="" class="tunnel1 bg" %}
+<section class="events-venue wrapper pycon-tab" >
   {% asset bluewind.png alt="" class="bluewind bg" style="left: 27%;top: -53px; z-index: 9999;" %}
   <div class="row wow fadeIn">
     <div class="col-md-12 text-center">
@@ -163,5 +163,4 @@ nav: index
   </div>
 
   {% asset light-house.png alt="" class="auto bg" %}
-  {% asset tunnel-blue-entry.png alt="" class="tunnel2 bg" style="bottom: -5px;" %}
 </section>

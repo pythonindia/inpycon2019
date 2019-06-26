@@ -477,11 +477,6 @@ section {
   border: 0 none;
 }
 
-.tab-pane h5 {
-  margin: 0;
-  font-size: 12px;
-}
-
 .odd {
   padding: 25px 0px;
   background: #fff;
@@ -498,7 +493,7 @@ section {
 
 .odd span,
 .even span {
-  font-size: 16px;
+  font-size: 14px;
   color: #439de9;
   font-weight: 700;
 }
@@ -683,7 +678,7 @@ table a:before {
 }
 
 td {
-  padding: 10px 15px !important;
+  padding: 10px 15px;
 }
 
 #pycon-tab,
