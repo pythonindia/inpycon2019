@@ -1,8 +1,9 @@
 - type: Student Ticket
   event_date: Conference only ticket for 12 and 13 October 2019.
   end_date: Sales end by 12 October 2019.
-  open: true
+  open: false
   cost: 1000
+  sold_out: true
 - type: Early Bird Ticket
   event_date: Conference only ticket for 12 and 13 October 2019.
   end_date: Sales end by 1 July 2019 or on the sale of 300 tickets, whichever is earlier
