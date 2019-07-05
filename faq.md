@@ -14,7 +14,7 @@ language. PyCon India 2019, will take place in Chennai, between Oct
 people are expected to participate in this event, from all over the
 country.
 
-PyCon India 2019 is actually 3 events rolled into one mega event.
+PyCon India 2019 is actually 3 events rolled into one mega event:
 
   * Conference Days
   

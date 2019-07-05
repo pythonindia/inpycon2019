@@ -93,6 +93,7 @@ We will start the review process as the proposals come in, and not at the end. P
 
 Take a look at the [code of conduct](/2019/code-of-conduct.html), and be mindful of it. The gist is, avoid using sexist language.
 
+**We've put together a set of detailed [best practices](https://github.com/pythonindia/junction/wiki/Speaker-best-practices) - take a look. It also contains links to some well written proposals from previous years. You can also take a look at a sample proposal outline [here](https://github.com/pythonindia/junction/wiki/Sample-Proposal-Outline).**
 
 ### Questions and Discussions
 
