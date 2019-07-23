@@ -1,3 +1,25 @@
+- type: Workshop Ticket (Morning)
+  event_date: Workshop only ticket for the morning workshop of 14 October 2019.
+  start_date: Sales start on 1 August 2019.
+  open: false
+  cost: 750
+  sold_out: false
+- type: Workshop Ticket (Afternoon)
+  event_date: Workshop only ticket for the afternoon workshop of 14 October 2019.
+  start_date: Sales start on 1 August 2019.
+  open: false
+  cost: 750
+  sold_out: false
+- type: Devsprints Ticket
+  event_date: |
+    Devsprints only ticket for 14 and 15 October 2019. A valid
+    conference ticket is required to register for Devsprints. Please
+    use the same email address that you have provided in the
+    registration information for conference tickets.
+  start_date: Sales start on 1 August 2019.
+  open: false
+  cost: 150
+  sold_out: false
 - type: Student Ticket
   event_date: Conference only ticket for 12 and 13 October 2019.
   end_date: Sales end by 12 October 2019.
@@ -28,17 +50,3 @@
   open: false
   cost: 5000
   sold_out: true
-- type: Workshop Ticket (Morning)
-  event_date: Workshop only ticket for the morning workshop of 14 October 2019.
-  start_date: Sales start on 1 August 2019.
-  open: false
-  cost: 750
-- type: Workshop Ticket (Afternoon)
-  event_date: Workshop only ticket for the afternoon workshop of 14 October 2019.
-  start_date: Sales start on 1 August 2019.
-  open: false
-  cost: 750
-- type: Developer Sprints Ticket
-  event_date: Developer Sprints only ticket for 14 and 15 October 2019.
-  open: false
-  cost: 150

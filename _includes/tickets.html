@@ -61,7 +61,7 @@
 
   <div class="container ticket-mobile">
     {% for category in site.data.tickets %}
-      {% if category.open %}
+    {% if category.sold_out == false %}
         <div class="row wow fadeIn">
           <div class="col-md-12 light">
             <h3><strong>{{category.type}}</strong></h3>
@@ -87,6 +87,8 @@
                 <a href="https://www.townscript.com/e/pycon-india-2019/booking" target="_blank" rel="noreferrer noopener" class="dwd-link">
                   <strong>BUY TICKETS</strong>
                 </a>
+	      {% else %}
+		<a href="https://goo.gl/forms/GdtTebWL7mn3oKtW2" target="_blank" rel="noreferrer noopener" class="dwd-link">NOTIFY ME!</a>
               {% endif %}
             </p>
           </div>
@@ -94,11 +96,6 @@
       {% endif %}
     {% endfor %}
     <br>
-    <div class="row">
-      <div class="col-md-12">
-        <strong>These tickets are applicable for the conference only. Ticket sales for workshops and developer sprints will commence shortly.</strong>
-      </div>
-    </div>
   </div>
   {% asset tunnel-white-entry.png alt="" class="tunnel2 tunnel4 bg" %}
 </section>
