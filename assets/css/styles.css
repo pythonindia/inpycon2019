@@ -357,6 +357,12 @@ section {
   padding-bottom: 80px;
 }
 
+@media screen and (max-width: 600px) {
+  .pycon-speakers-img {
+    display: block !important;
+  }
+}
+
 .pycon-speakers-img .sp-img {
   background: #f5f4f4;
 }

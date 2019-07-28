@@ -9,7 +9,7 @@
     <br />
     <div class="row pycon-speakers-img wow fadeIn" style="display:flex;">
       {% for speaker in site.data.speakers %}
-        <div class="{% if forloop.index == 1 %}col-md-offset-3{% endif %} col-md-3 text-center" style="display:flex; flex-wrap: wrap;">
+        <div class="{% if forloop.index == 1 %}col-md-offset-1{% endif %} col-md-3 text-center" style="display:flex; flex-wrap: wrap;">
           {% assign mod = forloop.index | modulo: 2 %}
           <div class="{% if mod == 0 %}blue{% else %}orange{% endif %}" style="max-width: 300px;">
             {% asset {{speaker.photo}} alt="{{speaker.name}}" class="sp-img" width="100%" %}
