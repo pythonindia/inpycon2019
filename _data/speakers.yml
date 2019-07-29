@@ -11,3 +11,11 @@
   researcher living in Chicago. He is the author of the Python Cookbook (O'Reilly) and
   Python Essential Reference (Addison-Wesley) and has been involved with Python since 1996."
   photo: "david-beazley.jpg"
+- name: "Jake VanderPlas"
+  title: "Astronomer by Training; Author of Python Data Science Handbook; Developer at Google."
+  introduction: "Jake VanderPlas is a long-time user and contributor to the Python data
+  science ecosystem, and author of the Python Data Science Handbook. An astronomer by
+  training, he currently works as a software engineer at Google in Seattle, WA. Recently,
+  his efforts have been focused on data visualization tools, particularly the Altair and
+  Vega-Lite libraries."
+  photo: "vanderplas.jpg"
