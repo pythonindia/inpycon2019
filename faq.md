@@ -112,6 +112,8 @@ buy tickets. Your ticket helps keep the event affordable for all.
 
   * A full conference pass for two days that includes access to all
     keynotes, talks, poster session, lightning talks and open spaces.
+
+  * Breakfash (Newly Added!)
     
   * Lunch
   
@@ -119,16 +121,33 @@ buy tickets. Your ticket helps keep the event affordable for all.
   
   * PyCon India T-shirt and goodies
 
+  * Access to Childcare at the Venue
+
 ### Q. Is there a different ticket for the Workshops?
 
-Yes. A separate ticket has to be purchased for each workshop.
+Yes. A separate ticket has to be purchased for each workshop. The
+following is included as part of the workshop ticket.
+
+  1. Access to the specific workshop
+
+  2. Lunch
+
+  3. High-Tea and Snacks
+
+  4. Access to Kids engagement (by Volunteers) at the Venue
 
 ### Q. Is there a different ticket for the Devsprints?
 
 Yes. A separate ticket, involving a token fee, has to be purchased for
 the devsprints. There is limited space at the venue, and the token
 fee, is just to ensure that the ticket registrations are taken
-seriously.
+seriously. The following is included as part of the devsprint ticket.
+
+  1. Access to the devsprints, for 2 Days
+  
+  2. Lunch
+  
+  3. High-Tea and Snacks
 
 <a name="transfer-ticket"></a>
 ### Q. There is a change in my plan so I can't attend the conference. Can I get a refund?
