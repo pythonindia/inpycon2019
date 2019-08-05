@@ -432,6 +432,20 @@ section {
   background-repeat: no-repeat;
 }
 
+.sponsor img {
+  max-width: 200px;
+}
+
+.sponsor a {
+  background: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sponsor a:before {
+  content: none;
+}
+
 .common-padding {
   padding-top: 50px;
 }
