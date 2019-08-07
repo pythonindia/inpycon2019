@@ -30,7 +30,8 @@ as they usually rip off outsiders. Same goes for rental cabs at the airport as w
 **IITM Research Park(Workshops and Dev Sprints)**
 
 Again, the easiest option is to take a metro towards Washermenpet and alight at Little Mount Metro.
-From there, you can take a bus towards Thiruporur(570x) and alight at Pillaiyar Koil Stop.
+From there, you can take a bus towards Thiruporur(519) and alight at TidelPark. IITMRP is exactly
+behind Ramanujam IT Park. The distance from tidelpark bustop is 1Km
 
 <br>
 
@@ -52,10 +53,11 @@ meters from the bus stop.
 **IITM Research Park(Workshops and Dev Sprints)**
 
 From Chennai Central, you can take a metro ride to Saidapet Metro and catch a bus
-towards Besant Nagar and alight at IIT-M or CLRI. The bus routes are 19B, 5C, 5E, 23C and 47.
+towards Tidel Park and alight at Tidel Park Bus Stop. The bus routes are 19A, 19BCT, 221H, M19B. 
 
-You can also use MRTS and get down at Thiruvanmiyur MRTS Stop. Ramanujam IT Park is close to this
-station and the entrance to IIT is just behind this.
+From Chennai Central Walk Towards Park Town MRTS station, take a train towards Velacheary and
+get down at Thiruvanmiyur MRTS Stop. Ramanujam IT Park is close to this
+station and the entrance to IITMRP is just behind this.
 
 <br>
 
@@ -78,8 +80,9 @@ get down at Contonment Cemetery. The venue is 200 meters from here.
 
 **IITM Research Park(Workshops and Dev Sprints)**
 
-You can reach IIT-M using the bus route 570 or 570S and get down at IIT-M bus stop(also referred
-to as CLRI) just opposite the entrance of IIT-M.
+You can reach IITMRP using the bus route M70 and get down at Tidel Park bus stop.
+From Tidel Park Bus Stop you can walk towards backside of Ramanujam IT Park.
+IITMRP is exactly behind Ramanujam IT Park.
 
 <br>
 
