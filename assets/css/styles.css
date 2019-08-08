@@ -476,10 +476,10 @@ section {
 
 /*tab style*/
 /* USER PROFILE PAGE */
-.pycon-tab wrapper {
+.pycon-tab {
   background: white
+  position: static
 }
-
 
 .pycon-tab {
   background: #EEEEEE
