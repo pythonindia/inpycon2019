@@ -476,11 +476,13 @@ section {
 
 /*tab style*/
 /* USER PROFILE PAGE */
-.pycon-tab {
-  background: white
-  position: static
-}
 
+
+.pycon-tab wrapper {
+  background: white
+  position: relative;
+  z-index: 9999;
+}
 .pycon-tab {
   background: #EEEEEE
   position: relative;
