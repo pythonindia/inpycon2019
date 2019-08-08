@@ -444,7 +444,7 @@ section {
 .sponsor a {
   background: none;
   padding: 0;
-  margin: 0 30px;
+  margin: 15px 30px;
 }
 
 .sponsor a:before {
