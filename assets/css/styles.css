@@ -357,9 +357,14 @@ section {
   padding-bottom: 80px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 740px) {
   .pycon-speakers-img {
     display: block !important;
+  }
+
+  .orange,
+  .blue {
+    margin: 30px auto;
   }
 }
 
@@ -1058,11 +1063,6 @@ a {
 
   .updates {
     margin-bottom: 30px;
-  }
-
-  .orange,
-  .blue {
-    margin: 30px auto;
   }
 
   #platinum img,
