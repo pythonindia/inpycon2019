@@ -477,7 +477,7 @@ section {
 /*tab style*/
 /* USER PROFILE PAGE */
 .pycon-tab {
-  
+  background: white
   position: relative;
   z-index: 9999;
 }
