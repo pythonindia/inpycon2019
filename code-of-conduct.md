@@ -29,8 +29,13 @@ At the PyCon India venue and related online forums, you agree to:
     sexual attention.
 
 Violations can be reported online by sending a mail to
-[report@in.pycon.org](mailto:report@in.pycon.org), or to PyCon India
-volunteers at the venue. Please read our [Reporting
+[report@in.pycon.org](mailto:report@in.pycon.org), 
+ or to PyCon India
+ volunteers at the venue. 
+You can also report directly to the chair of the
+Diversity workgroup, Sharmila Gopirajan. She can
+be reached at the mobile no. +91-8925760036.
+ Please read our [Reporting
 Guide](reporting-guide.html) for reporting
 guidelines and resolution procedure.
 
