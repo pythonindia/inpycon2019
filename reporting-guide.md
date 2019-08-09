@@ -110,7 +110,7 @@ the Conference Chair.
 
 In that case, you can make a report directly to the chair of the
 Diversity workgroup, Sharmila Gopirajan. She can be reached at the
-mobile no. *TBD* and the email address
+mobile no. +91-8925760036 and the email address
 [report@in.pycon.org](mailto:report@in.pycon.org) The chair will follow the
 usual enforcement process with the other members, but will exclude the
 member(s) that the report concerns, from any discussion or decision
