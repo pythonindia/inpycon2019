@@ -1,0 +1,49 @@
+- type: Workshop Ticket (Morning)
+  event_date: Workshop only ticket for the morning workshop of 14 October 2019.
+  start_date: Sales start on 3 August 2019.
+  open: true
+  cost: 750
+  sold_out: false
+- type: Workshop Ticket (Afternoon)
+  event_date: Workshop only ticket for the afternoon workshop of 14 October 2019.
+  start_date: Sales start on 3 August 2019.
+  open: true
+  cost: 750
+  sold_out: false
+- type: Devsprints Ticket
+  event_date: |
+    Devsprints only ticket for 14 and 15 October 2019.
+  start_date: Sales start on 3 August 2019.
+  open: true
+  cost: 150
+  sold_out: false
+- type: Student Ticket
+  event_date: Conference only ticket for 12 and 13 October 2019.
+  end_date: Sales end by 12 October 2019.
+  open: false
+  cost: 1000
+  sold_out: true
+- type: Early Bird Ticket
+  event_date: Conference only ticket for 12 and 13 October 2019.
+  end_date: Sales end by 1 July 2019 or on the sale of 300 tickets, whichever is earlier
+  sold_out: true
+  open: false
+  cost: 1100
+- type: Regular Ticket
+  event_date: Conference only ticket for 12 and 13 October 2019.
+  end_date: Sales end by 1 September 2019 or on the sale of 400 tickets, whichever is earlier.
+  sold_out: true
+  open: false
+  cost: 1600
+- type: Late Bird Ticket
+  event_date: Conference only ticket for 12 and 13 October 2019.
+  end_date: Sales end by 12 October 2019, or on the sale of 150 tickets, whichever is earlier.
+  open: false
+  cost: 2000
+  sold_out: true
+- type: Contributor Ticket
+  event_date: Conference only ticket for 12 and 13 October 2019.
+  end_date: Sales end by 12 October 2019.
+  open: false
+  cost: 5000
+  sold_out: true

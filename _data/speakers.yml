@@ -1,7 +1,35 @@
 - name: "Ines Montani"
-  title: "Founder Explosion / spaCy core developer"
+  title: "Founder Explosion / spaCy Core Developer"
   introduction: "Ines is a developer specialising in applications for AI technology. 
     She’s the co-founder of Explosion and a core developer of spaCy, one of 
     the most popular libraries for Natural Language Processing in Python, 
     and Prodigy, an annotation tool for radically efficient machine teaching."
-  photo: "https://explosion.ai/assets/img/profile_ines.jpg"
+  photo: "ines-montani.jpg"
+- name: "David Beazley"
+  title: "Author of the Python Essential Reference and Python Cookbook"
+  introduction: "David Beazley is an independent computer scientist, educator, and
+  researcher living in Chicago. He is the author of the Python Cookbook (O'Reilly) and
+  Python Essential Reference (Addison-Wesley) and has been involved with Python since 1996."
+  photo: "david-beazley.jpg"
+- name: "Jake VanderPlas"
+  title: "Astronomer by Training; Author of Python Data Science Handbook; Developer at Google."
+  introduction: "Jake VanderPlas is a long-time user and contributor to the Python data
+  science ecosystem, and author of the Python Data Science Handbook. An astronomer by
+  training, he currently works as a software engineer at Google in Seattle, WA. Recently,
+  his efforts have been focused on data visualization tools, particularly the Altair and
+  Vega-Lite libraries."
+  photo: "vanderplas.jpg"
+- name: "Devi A S L"
+  title: "Independent Software Consultant"
+  introduction: |-
+    Devi is an independent software consultant, based in Bangalore.
+    She is a long term Pythonista and her work spans diverse domains ranging
+    from developing high-performance math libraries, cryptography to
+    architecting complex web applications.
+    
+    Through her work that surpassed over a decade, she has experienced diverse
+    work cultures at small startups, MNCs and remote teams where she has been
+    through the lows and highs women in tech from different perspectives.
+    She has been an active member of the PyCon India community since its
+    inception, as a volunteer and as a speaker
+  photo: "asldevi.jpg"

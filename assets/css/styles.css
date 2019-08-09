@@ -25,8 +25,7 @@ h1 {
 }
 
 a:hover,
-a:active,
-a:focus {
+a:active {
   color: #1E51E4;
   outline: none;
   text-decoration: none;
@@ -68,6 +67,7 @@ section {
 
 .nav>li>a {
   padding: 30px 13px;
+  margin-top: 8px;
 }
 
 .navbar-default .navbar-nav>li>a:hover,
@@ -76,7 +76,8 @@ section {
 }
 
 .navbar-brand>img {
-  padding: 5px 0;
+  padding: 5px 5px;
+  margin-top: -2px;
 }
 
 .navbar-brand {
@@ -101,6 +102,27 @@ section {
   border-radius: 5px;
 }
 
+.skip-main {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+.skip-main a{
+  position: absolute;
+  top: -50px;
+  color: #F2B10B;
+  background-color: #337AB7;
+  padding: 8px 8px;
+
+}
+
+.skip-main a:focus {
+  top: 0;
+  z-index: 99999;
+}
+
 /* Dropdown Button */
 
 .dropdown {
@@ -112,7 +134,7 @@ section {
   display: none;
   position: absolute;
   background-color: #f1f1f1;
-  min-width: 160px;
+  min-width: 180px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
@@ -132,6 +154,23 @@ section {
   display: block;
 }
 
+@media screen and (max-width: 768px) {
+  .dropdown {
+    position: static;
+  }
+
+  .dropdown-content {
+    position: static;
+    width: 180px;
+    margin: auto;
+  }
+  
+  .dropdown-content a {
+    padding: 8px 10px;
+    text-align: center;
+  }
+}
+
 /*banner styles */
 section {
   position: relative;
@@ -146,12 +185,11 @@ section {
 }
 
 .conference p {
-
   color: #031335;
   font-weight: 700;
 }
 
-.con h5 {
+.con h4, .con h5 {
   font-size: 15px;
   font-weight: 700;
   color: #ccc;
@@ -226,7 +264,7 @@ section {
   color: #17A5D8;
 }
 
-.con h4 {
+.con h3 {
   color: #439de9;
   padding-bottom: 8px;
 }
@@ -319,6 +357,17 @@ section {
   padding-bottom: 80px;
 }
 
+@media screen and (max-width: 740px) {
+  .pycon-speakers-img {
+    display: block !important;
+  }
+
+  .orange,
+  .blue {
+    margin: 30px auto;
+  }
+}
+
 .pycon-speakers-img .sp-img {
   background: #f5f4f4;
 }
@@ -388,6 +437,20 @@ section {
   background-repeat: no-repeat;
 }
 
+.sponsor img {
+  max-width: 200px;
+}
+
+.sponsor a {
+  background: none;
+  padding: 0;
+  margin: 0 30px;
+}
+
+.sponsor a:before {
+  content: none;
+}
+
 .common-padding {
   padding-top: 50px;
 }
@@ -439,11 +502,6 @@ section {
   border: 0 none;
 }
 
-.tab-pane h5 {
-  margin: 0;
-  font-size: 12px;
-}
-
 .odd {
   padding: 25px 0px;
   background: #fff;
@@ -460,7 +518,7 @@ section {
 
 .odd span,
 .even span {
-  font-size: 16px;
+  font-size: 14px;
   color: #439de9;
   font-weight: 700;
 }
@@ -590,13 +648,12 @@ section {
   width: 15%;
 }
 
-.pycon-tab table {
+table {
   background: #fff;
-  box-shadow: 0px 0px 20px 2px #d4d4d4;
-
+  border: 1px solid #ddd;
 }
 
-.pycon-tab table h5 {
+table h5 {
   font-size: 18px;
   color: #439de9;
 }
@@ -605,7 +662,7 @@ table h3 {
   color: #f2b10b;
 }
 
-.pycon-tab table a,
+table a,
 .address a {
   background: #051237;
   padding: 10px 25px;
@@ -615,7 +672,7 @@ table h3 {
   position: relative;
 }
 
-.pycon-tab table a:before {
+table a:before {
   content: "";
   position: absolute;
   background: #f2b10b;
@@ -623,6 +680,30 @@ table h3 {
   top: -8px;
   left: 0;
   width: 100% !important;
+}
+
+.buy-ticket a {
+  background: #051237;
+  padding: 10px 15px;
+  color: #fff;
+  display: inline-block;
+  position: relative;
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.buy-ticket a:before {
+  content: "";
+  position: absolute;
+  background: #f2b10b;
+  height: 5px;
+  top: -8px;
+  left: 0;
+  width: 100% !important;
+}
+
+td {
+  padding: 10px 15px;
 }
 
 #pycon-tab,
@@ -737,6 +818,11 @@ footer ul li a:hover {
 
 footer ul {
   padding-top: 40px;
+  margin-top: -25px;
+}
+
+footer a{
+  color: #F3B20D;
 }
 
 footer .design-by {
@@ -744,6 +830,7 @@ footer .design-by {
   padding-top: 20px;
   margin: 0;
   font-size: 16px;
+  margin-top: -10px;
 }
 
 footer p {
@@ -841,6 +928,7 @@ a {
 .dwd-link:hover,
 .pycon-tab table a:hover {
   background: #439de9;
+  color: white;
 }
 
 .current a {
@@ -891,9 +979,22 @@ a {
   background: #dcdbdb !important;
 }
 
-@media screen and (max-width: 768px) {
+.ticket-mobile,
+.ticket-desktop {
+  margin-bottom: 50px;
+}
+
+.ticket-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
   .navbar-brand {
-    width: 60%
+    width: 60%;
+  }
+
+  .navbar-toggle {
+    margin-top: 3.2%;
   }
 
   .navbar-default .navbar-nav>li>a {
@@ -917,10 +1018,6 @@ a {
 
   .nav>li>a {
     padding: 15px 13px;
-  }
-
-  .bg {
-    display: none;
   }
 
   .buytic {
@@ -968,11 +1065,6 @@ a {
     margin-bottom: 30px;
   }
 
-  .orange,
-  .blue {
-    margin: 30px auto;
-  }
-
   #platinum img,
   .event-venue img {
     width: 60%;
@@ -985,9 +1077,22 @@ a {
   }
 }
 
-@media screen and (min-width: 600px) and (max-width: 768px) {
+@media screen and (min-width: 600px) and (max-width: 910px) {
   .navbar-nav {
-    float: left;
+    float: none;
+    margin-left: 22vw;
+  }
+
+  .navbar-toggle {
+    margin-top: 3.2%;
+  }
+
+  .navbar-default .navbar-nav>li>a {
+    text-align: center;
+  }
+
+  .nav>li>a {
+    padding: 15px 13px;
   }
 
   .navbar-brand {
@@ -1003,6 +1108,20 @@ a {
 
   .navbar-header {
     float: none;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .bg {
+    display: none;
+  }
+
+  .ticket-desktop {
+    display: none;
+  }
+
+  .ticket-mobile {
+    display: block;
   }
 }
 
@@ -1076,7 +1195,10 @@ a {
   font-weight: bold;
 }
 
-.blog h1,
+.blog h1 {
+  margin: 20px 0 50px 0;
+}
+
 .blog h2,
 .blog h3,
 .blog h4,
@@ -1092,6 +1214,10 @@ a {
 .small {
   font-size: 14px;
   font-weight: lighter;
+}
+
+.light, .light p {
+  font-weight: 400;
 }
 
 .wrapper {

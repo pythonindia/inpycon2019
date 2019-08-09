@@ -1,0 +1,143 @@
+day1:
+  - time: 09:15 AM - 09:30 AM
+    hallA:
+      name: Opening Address
+      speaker: ""
+    hallB:
+      name: '-'
+      speaker: ""
+    hallC:
+      name: '-'
+      speaker: ""
+  - time: 09:30 AM - 10:30 AM
+    hallA:
+      name: Keynote
+      speaker: ""
+    hallB:
+      name: "-"
+      speaker: ""
+    hallC:
+      name: "-"
+      speaker: ""
+  - time: 10:30 AM - 11:00 AM
+    common: "Tea Break"
+  - time: 11:00 AM - 01:15 PM
+    common: "Talks"
+  - time: 01:15 PM - 02:00 PM
+    common: "Lunch Break"
+  # - time: 11:00 AM - 11:30 AM
+  #   hallA:
+  #     name: Talk Slot 1
+  #     speaker: ""
+  #   hallB:
+  #     name: Talk Slot 7
+  #     speaker: ""
+  #   hallC:
+  #     name: Talk Slot 13
+  #     speaker: ""
+  # - time: 11:35 AM - 12:05 PM
+  #   hallA:
+  #     name: Talk Slot 2
+  #     speaker: ""
+  #   hallB:
+  #     name: Talk Slot 8
+  #     speaker: ""
+  #   hallC:
+  #     name: Talk Slot 14
+  #     speaker: ""
+  # - time: 12:10 PM - 12:40 PM
+  #   hallA:
+  #     name: Talk Slot 3
+  #     speaker: ""
+  #   hallB:
+  #     name: Talk Slot 9
+  #     speaker: ""
+  #   hallC:
+  #     name: Talk Slot 15
+  #     speaker: ""
+  # - time: 12:45 PM - 01:15 PM
+  #   hallA:
+  #     name: Lunch Break
+  #     speaker: ""
+  #   hallB:
+  #     name: Talk Slot 10
+  #     speaker: ""
+  #   hallC:
+  #     name: Talk Slot 16
+  #     speaker: ""
+  # - time: 01:15 PM - 02:00 PM
+  #   hallA:
+  #     name: Lunch Break
+  #     speaker: ""
+  #   hallB:
+  #     name: Lunch Break
+  #     speaker: ""
+  #   hallC:
+  #     name: Lunch Break
+  #     speaker: ""
+  - time: 02:00 PM - 03:00 PM
+    common: "Poster Presentation"
+  # - time: 02:00 PM - 03:00 PM
+  #   hallA:
+  #     name: "-"
+  #     speaker: ""
+  #   hallB:
+  #     name: Poster Session
+  #     speaker: ""
+  #   hallC:
+  #     name: "-"
+  #     speaker: ""
+  - time: 03:00 PM - 04:45 PM
+    common: "Talk Slots"
+  - time: 04:45 PM - 05:15 PM
+    common: "Tea Break"
+  # - time: 03:05 PM - 03:35 PM
+  #   hallA:
+  #     name: Talk Slot 4
+  #     speaker: ""
+  #   hallB:
+  #     name: "-"
+  #     speaker: ""
+  #   hallC:
+  #     name: Talk Slot 17
+  #     speaker: ""
+  # - time: 03:40 PM - 04:10 PM
+  #   hallA:
+  #     name: Talk Slot 5
+  #     speaker: ""
+  #   hallB:
+  #     name: Talk Slot 11
+  #     speaker: ""
+  #   hallC:
+  #     name: Talk Slot 17
+  #     speaker: ""
+  # - time: 04:15 PM - 04:45 PM
+  #   hallA:
+  #     name: Talk Slot 6
+  #     speaker: ""
+  #   hallB:
+  #     name: Talk Slot 12
+  #     speaker: ""
+  #   hallC:
+  #     name: Talk Slot 18
+  #     speaker: ""
+  # - time: 04:45 PM - 05:15 PM
+  #   hallA:
+  #     name: Tea Break
+  #     speaker: ""
+  #   hallB:
+  #     name: Tea Break
+  #     speaker: ""
+  #   hallC:
+  #     name: Tea Break
+  #     speaker: ""
+  - time: 05:15 PM - 06:15 PM
+    hallA:
+      name: Keynote
+      speaker: ""
+    hallB:
+      name: "-"
+      speaker: ""
+    hallC:
+      name: "-"
+      speaker: ""

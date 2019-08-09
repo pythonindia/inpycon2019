@@ -1,93 +1,101 @@
 <!-- TODO Convert this to be YML Based -->
-<section class="pycon-tab" id="pycon-tab">
-  <img src="images/bluewind.png" alt="Image" class="bluewind bg" style="left: 18%;top: -53px">
+<section class="wrapper" style="background: white;" id="tickets">
+  {% asset tunnel-white-exit.png alt="" class="tunnel1 bg" %}
+  {% asset bluewind.png alt="" class="bluewind bg" style="left: 18%;top: -53px; z-index:9999;" %}
   <div class="row wow fadeIn">
     <div class="col-md-12 text-center">
-      <h1>TICKETS PRICETABLE</h1>
+      <h1>TICKETS</h1>
     </div>
   </div>
   <br />
-  <div class="container">
+  <div class="container ticket-desktop">
     <div class="row wow fadeIn">
-      <div class="col-md-10 col-md-offset-1">
+      <div class="col-md-12">
         <div class="table-responsive">
-        <table class="table table-striped">
-          <thead>
-            <tr>
-              <th colspan="3" class="text-center"><h3><b>CONFERENCE</b></h3></th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>
-                <h5><b>EARLY BIRD TICKET</b></h5>
-                <p>Conference ticket for 6th - 7th Oct, '18</p>
-                <p>Sales ends by 30 Jun, 2018 11:59 (Asia/Kolkata) or Completion of 300 tickets</p>
-              </td>
-              <td>
-                <h5><b>INR 1200</b></h5>
-                <p>(GST Applicable)</p>
-              </td>
-              <td style="position: relative;" class="dwd-schedule">
-
-            <a href="#" class="dwd-link"><b>BUY TICKETS</b></a>
-
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <h5><b>EARLY BIRD TICKET</b></h5>
-                <p>Conference ticket for 6th - 7th Oct, '18</p>
-                <p>Sales ends by 30 Jun, 2018 11:59 (Asia/Kolkata) or Completion of 300 tickets</p>
-              </td>
-              <td>
-                <h5><b>INR 1200</b></h5>
-                <p>(GST Applicable)</p>
-              </td>
-              <td style="position: relative;" class="dwd-schedule">
-
-            <a href="#" class="dwd-link"><b>BUY TICKETS</b></a>
-
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <h5><b>EARLY BIRD TICKET</b></h5>
-                <p>Conference ticket for 6th - 7th Oct, '18</p>
-                <p>Sales ends by 30 Jun, 2018 11:59 (Asia/Kolkata) or Completion of 300 tickets</p>
-              </td>
-              <td>
-                <h5><b>INR 1200</b></h5>
-                <p>(GST Applicable)</p>
-              </td>
-              <td style="position: relative;" class="dwd-schedule">
-
-            <a href="#" class="dwd-link"><b>BUY TICKETS</b></a>
-
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <h5><b>EARLY BIRD TICKET</b></h5>
-                <p>Conference ticket for 6th - 7th Oct, '18</p>
-                <p>Sales ends by 30 Jun, 2018 11:59 (Asia/Kolkata) or Completion of 300 tickets</p>
-              </td>
-              <td>
-                <h5><b>INR 1200</b></h5>
-                <p>(GST Applicable)</p>
-              </td>
-              <td style="position: relative;" class="dwd-schedule">
-
-            <a href="#" class="dwd-link"><b>BUY TICKETS</b></a>
-
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-        <p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</p>
+          <table class="table table-striped">
+            <tbody>
+              {% for category in site.data.tickets %}
+                <tr>
+                  <td class="col-md-6">
+                    <h5><strong>{{category.type }}</strong></h5>
+                    <p>{{category.event_date}}</p>
+                    <p>
+                      {% if category.open %}
+                        {{category.end_date}}
+                      {% else %}
+                        {{category.start_date}}
+                      {% endif %}
+                    </p>
+                  </td>
+                  <td class="col-md-2" style="vertical-align:middle;">
+                    {% if category.cost %}
+                      <h5>
+                        <strong>
+                          ₹{{category.cost}}
+                        </strong>
+                      </h5>
+                      <p>(GST Applicable)</p>
+                    {% endif %}
+                  </td>
+                  <td style="position: relative;{% unless category.open %}vertical-align:middle;{% endunless %}" class="dwd-schedule col-md-3 text-center">
+                    {% if category.open %}
+                      <a href="https://www.townscript.com/e/pycon-india-2019/booking" target="_blank" rel="noreferrer noopener" class="dwd-link">
+                        <strong>BUY TICKETS</strong>
+                      </a>
+                    {% else %}
+                      {% if category.sold_out %}
+                        <strong style="color:red;">SOLD OUT</strong>
+                      {% else %}
+			<a href="https://goo.gl/forms/GdtTebWL7mn3oKtW2" target="_blank" rel="noreferrer noopener" class="dwd-link">NOTIFY ME!</a>
+                      {% endif %}
+                    {% endif %}
+                  </td>
+                </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
   </div>
-  <img src="images/bluewind.png" alt="Image" class="bluewind bg">
+
+  <div class="container ticket-mobile">
+    {% for category in site.data.tickets %}
+    {% if category.sold_out == false %}
+        <div class="row wow fadeIn">
+          <div class="col-md-12 light">
+            <h3><strong>{{category.type}}</strong></h3>
+            <p>
+              {{category.event_date}}
+              {% if category.open %}
+                {{category.end_date}}
+              {% else %}
+                {{category.start_date}}
+              {% endif %}
+            </p>
+
+            <p>
+              <strong>
+                {% if category.cost %}
+                  ₹{{category.cost}} (GST Applicable)
+                {% endif %}
+              </strong>
+            </p>
+
+            <p class="buy-ticket">
+              {% if category.open %}
+                <a href="https://www.townscript.com/e/pycon-india-2019/booking" target="_blank" rel="noreferrer noopener" class="dwd-link">
+                  <strong>BUY TICKETS</strong>
+                </a>
+	      {% else %}
+		<a href="https://goo.gl/forms/GdtTebWL7mn3oKtW2" target="_blank" rel="noreferrer noopener" class="dwd-link">NOTIFY ME!</a>
+              {% endif %}
+            </p>
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+    <br>
+  </div>
+  {% asset tunnel-white-entry.png alt="" class="tunnel2 tunnel4 bg" %}
 </section>
