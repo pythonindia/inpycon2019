@@ -136,7 +136,9 @@ nav: index
             <div class="bg-color"></div>
           </div>
           <div class="address">
-            <h4><a href = "https://www.google.com/maps/place/Chennai+Trade+Centre/@13.013676,80.1878456,17z/data=!4m5!3m4!1s0x3a526734ffcb019d:0xe47e2c5b27491350!8m2!3d13.013676!4d80.1900343"><strong>CHENNAI TRADE CENTER</strong></a></h4>
+           <h4> <a href="https://www.google.com/maps/place/Chennai+Trade+Centre/@13.013676,80.1878456,17z/data=!3m1!4b1!4m5!3m4!1s0x3a526734ffcb019d:0xe47e2c5b27491350!8m2!3d13.013676!4d80.1900343" target="_blank" rel="noreferrer noopener" class="dwd-link">
+                        
+                      <strong>CHENNAI TRADE CENTER</strong></a></h4>
             <p>OCTOBER 12, 13</p>
             <span>CTC Complex,<br /> Mount Poonamalle High Rd, Nandambakkam, Chennai, Tamil Nadu 600089</span>
             <!-- <div style="position: relative;">
@@ -150,7 +152,7 @@ nav: index
             <div class="bg-color"></div>
           </div>
           <div class="address">
-            <h4><a href = "https://www.google.com/maps/place/IIT+Madras+Research+Park/@12.9901895,80.2396882,17z/data=!3m1!4b1!4m5!3m4!1s0x3a525d7d6641728d:0xddfdb15c6538d927!8m2!3d12.9901895!4d80.2418769"><strong>IITM RESEARCH PARK</strong></a></h4>
+            <h4><a href ="https://www.google.com/maps?safe=active&client=ubuntu&hs=7N2&channel=fs&q=iitm+research+park&um=1&ie=UTF-8&sa=X&ved=0ahUKEwiNw5mOofXjAhXRbn0KHfA4CJYQ_AUIECgB" target="_blank" rel="noreferrer noopener" class="dwd-link"><strong>IITM RESEARCH PARK</strong></a></h4>
             <p>OCTOBER 14, 15</p>
             <span>Kanagam Road, 32, Tharamani,<br />Chennai, Tamil Nadu 600113</span>
             <!-- <div style="position: relative;">
