@@ -1241,3 +1241,13 @@ a {
     left: 18%;
   }
 }
+
+/*img class is to transform image in bigger when move the cursor on image */
+img {
+    transition:transform 0.25s ease;
+}
+
+img:hover {
+    -webkit-transform:scale(1.5); 
+    transform:scale(1.5);
+}

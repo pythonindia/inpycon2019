@@ -12,12 +12,23 @@ This page is to help the attendees reach Chennai and the conference venues.
 ### Getting to PyCon India 2019
 
 <br>
+<div class="img">
+     <img src="./assets/images/reaching-venue19-distance.png" 
+     	  	title="The Distance map" width="700" height="350" />
+</div>
 
 #### **By Plane**
 <br>
 
 Chennai has an international airport that is well connected to Europe, the Middle East, US,
 and South East Asia. It is also well connected by domestic flights.
+
+<div class="img">
+     <img src="./assets/images/reaching-venue19-from-chennai-airport.png" alt="distance"
+     	  	title="From Chennai Airport" width="700" height="350" />
+</div>
+
+
 
 **Chennai Trade Center(Conference)**
 
@@ -41,6 +52,13 @@ behind Ramanujam IT Park. The distance from tidelpark bustop is 1Km
 
 #### **By Train**
 <br>
+
+<div class="img">
+     <img src="./assets/images/reaching-venue19-from-chennai-central.png" alt="distance"
+     	  	title="From Chennai Central" width="700" height="350" />
+</div>
+
+
 
 Chennai's Central Railway Station is where you will most probably arrive. 
 
@@ -67,6 +85,13 @@ station and the entrance to IITMRP is just behind this.
 
 #### **By Bus**
 <br>
+
+<div class="img">
+     <img src="./assets/images/reaching-venue19-from-chennai-cmbt.png" alt="distance"
+     	  	title="From Chennai CMBT" width="700" height="350" />
+</div>
+
+
 
 Chennai CMBT is the central bus stand where all buses arrive. This has two bus stands - one
 for government and one for private buses. The directions are given from the government bus stand.
