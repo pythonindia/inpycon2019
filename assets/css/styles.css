@@ -1242,12 +1242,3 @@ a {
   }
 }
 
-/*img class is to transform image in bigger when move the cursor on image */
-.img-zoom {
-    transition:transform 0.25s ease;
-}
-
-.img-zoom:hover {
-    -webkit-transform:scale(1.5); 
-    transform:scale(1.5);
-}
