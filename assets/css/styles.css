@@ -439,16 +439,20 @@ section {
 
 /* Effort to match the logo sizes, and keep the sponsors happy */
 
-.sponsor .small {
+.sponsor .portrait {
+    max-width: 150px;
+}
+
+.sponsor .square {
     max-width: 200px;
 }
 
-.sponsor .medium {
+.sponsor .landscape {
     max-width: 250px;
 }
 
-.sponsor .large {
-    max-width: 350px;
+.sponsor .x-landscape {
+    max-width: 300px;
 }
 
 .sponsor a {
