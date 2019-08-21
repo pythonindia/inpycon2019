@@ -437,8 +437,18 @@ section {
   background-repeat: no-repeat;
 }
 
-.sponsor img {
-  max-width: 200px;
+/* Effort to match the logo sizes, and keep the sponsors happy */
+
+.sponsor .small {
+    max-width: 200px;
+}
+
+.sponsor .medium {
+    max-width: 250px;
+}
+
+.sponsor .large {
+    max-width: 350px;
 }
 
 .sponsor a {
