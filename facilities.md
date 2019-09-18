@@ -65,8 +65,6 @@ We have ensured the following at both the venues:
 
   * Doorways and important routes are at least 32 inches wide.
 
-  * Stage is accessible for wheelchair users.
-
   * Empty spaces in front or back of halls for wheelchair users.
 
   * Elevators in the venue where applicable have Braille markings.
