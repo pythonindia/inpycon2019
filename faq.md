@@ -113,7 +113,7 @@ buy tickets. Your ticket helps keep the event affordable for all.
   * A full conference pass for two days that includes access to all
     keynotes, talks, poster session, lightning talks and open spaces.
 
-  * Breakfash (Newly Added!)
+  * Breakfast (Newly Added!)
     
   * Lunch
   
