@@ -11,9 +11,10 @@ mind, this year we are providing space for communities to promote
 themselves and to present their work, through community posters.
 
 The poster session will be a 1-hour post lunch session on the first
-day of the conference. There are no other parallel tracks scheduled
-during that slot. Apart from the regular technical posters we will be
-having community posters, as well, as part of the poster session.
+day (12th October) of the conference. There are no other parallel
+tracks scheduled during that slot. Apart from the regular technical
+posters we will be having community posters, as well, as part of the
+poster session.
 
 If your community would like to take part in this please submit your
 proposal at
