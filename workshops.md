@@ -10,10 +10,11 @@ is as important as talks for a fulfilling conference experience. Like
 talks, workshops are also conducted by the members of the Python
 community.
 
-Each workshop is 2.5 hours duration. There are a total of 6 parallel
-tracks, with two workshops in each track, one in the morning and one
-in the afternoon. You can attend a maximum of two workshops, morning
-and afternoon.
+The workshops happen on the third day (14th October). Each workshop is
+2.5 hours duration. There are a total of 6 parallel tracks, with two
+workshops in each track, one in the morning and one in the
+afternoon. You can attend a maximum of two workshops, morning and
+afternoon.
 
 [Click here to book
 tickets](https://www.townscript.com/e/pycon-india-2019/booking)

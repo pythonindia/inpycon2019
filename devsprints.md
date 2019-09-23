@@ -11,11 +11,12 @@ without getting your hands dirty writing some code? Hence, for all
 Open Source enthusiasts out there, the PyCon India team is happy to
 announce Devsprints @ PyCon India 2019.
 
-During Devsprints, mentors/contributors of OSS projects guide
-participants through the end-to-end process of OSS contribution, right
-from setting up build environments, to developing and testing code, to
-submitting patches for bugs. If you are stuck, mentors are all
-available to help you figure out issues and get you back up and
+Devsprints happen during the third and fourth day (14th and 15th
+October). During Devsprints, mentors/contributors of OSS projects
+guide participants through the end-to-end process of OSS contribution,
+right from setting up build environments, to developing and testing
+code, to submitting patches for bugs. If you are stuck, mentors are
+all available to help you figure out issues and get you back up and
 running! From past experiences, we’ve seen a lot of people start off
 contributing to OSS through Devsprints and later go on to become
 regular contributors to various projects across the web.
