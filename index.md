@@ -139,9 +139,9 @@ nav: index
             <h4><strong>CHENNAI TRADE CENTER</strong></h4>
             <p>OCTOBER 12, 13</p>
             <span>CTC Complex,<br /> Mount Poonamalle High Rd, Nandambakkam, Chennai, Tamil Nadu 600089</span>
-            <!-- <div style="position: relative;">
-              <a href="#" class="dwd-link">VIEW LOCATION</a>
-            </div> -->
+            <div style="position: relative;">
+              <a href="https://goo.gl/maps/SC9dmKXTpQSyKFPL8" class="dwd-link">VIEW LOCATION</a>
+            </div>
           </div>
         </div>
         <div class="col-md-6">
@@ -153,9 +153,9 @@ nav: index
             <h4><strong>IITM RESEARCH PARK</strong></h4>
             <p>OCTOBER 14, 15</p>
             <span>Kanagam Road, 32, Tharamani,<br />Chennai, Tamil Nadu 600113</span>
-            <!-- <div style="position: relative;">
-              <a href="#" class="dwd-link">VIEW LOCATION</a>
-            </div> -->
+            <div style="position: relative;">
+              <a href="https://goo.gl/maps/EpycaA2UhZG7V3uL6" class="dwd-link">VIEW LOCATION</a>
+            </div>
           </div>
         </div>
       </div>
