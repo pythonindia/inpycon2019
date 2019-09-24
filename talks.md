@@ -5,6 +5,10 @@ title: Talks
 bloglike: true
 ---
 
+  * **Venue**: Chennai Trade Center
+  
+  * **Date**: 12th & 13th Oct, 2019
+
 Technical talks are the most important event at PyCon India, the core
 of the conference essentially. Talks are short lectures (30 min slot)
 supported by a presentation. Speakers come from the Python community.

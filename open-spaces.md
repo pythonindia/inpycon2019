@@ -5,6 +5,10 @@ title: Open Spaces
 bloglike: true
 ---
 
+  * **Venue**: Chennai Trade Center
+
+  * **Date**: 12th & 13th Oct, 2019
+
 ## What is an Open Space?
 
 While there are the regular talk tracks, where the majority of the

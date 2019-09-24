@@ -5,6 +5,10 @@ title: Workshops
 bloglike: true
 ---
 
+  * **Venue**: IITM Research Park
+  
+  * **Date**: 14th Oct, 2019
+
 Workshops are an important part of the PyCon India. Hands on learning
 is as important as talks for a fulfilling conference experience. Like
 talks, workshops are also conducted by the members of the Python

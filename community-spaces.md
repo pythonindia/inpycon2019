@@ -5,6 +5,10 @@ title: Community Spaces
 bloglike: true
 ---
 
+  * **Venue**: Chennai Trade Centre
+  
+  * **Date**: 12th Oct, 2019
+
 Local Python user communities and other meetup communities have been
 the backbone of PyCon India, since its inception. Keeping this in
 mind, this year we are providing space for communities to promote
