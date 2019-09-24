@@ -5,6 +5,10 @@ title: Lightning Talks
 bloglike: true
 ---
 
+  * **Venue**: Chennai Trade Center
+  
+  * **Date**: 12th & 13th Oct, 2019
+
 Lightning Talks are a series of short 5 min talks. Please see the
 schedule for Lightning Talk slots. Registration for lightning talks
 happen on the day of the conference, just come prepared with a topic

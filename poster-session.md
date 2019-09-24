@@ -5,6 +5,10 @@ title: Poster Session
 bloglike: true
 ---
 
+  * **Venue**: Chennai Trade Center
+  
+  * **Date**: 12th Oct, 2019
+
 Posters are graphical summary of projects or ideas. They are usually
 presented with an A0 size poster, but any creative ways are always
 welcome. The poster session provides an opportunity to network with

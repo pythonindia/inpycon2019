@@ -5,6 +5,10 @@ title: Devsprints
 bloglike: true
 ---
 
+  * **Venue**: IITM Research Park
+  
+  * **Date**: 14th & 15th Oct, 2019
+
 PyCon India is a place for developers from across the country (and
 beyond) to get together and celebrate Python. But what good is a PyCon
 without getting your hands dirty writing some code? Hence, for all
