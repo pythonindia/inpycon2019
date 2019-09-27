@@ -686,7 +686,7 @@ table h3 {
   position: relative;
 }
 
-table a:before {
+.tickets-table a:before {
   content: "";
   position: absolute;
   background: #f2b10b;
