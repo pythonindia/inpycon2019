@@ -82,11 +82,11 @@ nav: index
 
 {% include keynote-speakers.html %}
 
-{% include sponsors.html %}
+{% include schedule.html %}
 
 {% include tickets.html %}
 
-{% include schedule.html %}
+{% include sponsors.html %}
 
 <section class="latest-updates wrapper">
   <div class="wow fadeIn">
