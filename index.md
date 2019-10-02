@@ -30,7 +30,6 @@ nav: index
           </div>
           <div class="text-center pycon-speakers-img dwd-buyticket" style="position: relative;">
             <a href="/2019/submit-a-proposal.html" class="dwd-link"><strong>Submit A Proposal</strong></a>
-            <a href="/2019/#tickets" rel="noreferrer noopener" class="dwd-link"><strong>Buy A Ticket</strong></a>
           </div>
         </div>
       </div>
@@ -51,7 +50,6 @@ nav: index
               <h5 style="font-weight: 500">Chennai Trade center</h5>
               {% asset bracket-right.png class="sbac2" alt="" %}
             </div>
-            <!-- <a class="buytic" href="#">Buy Tickets</a> -->
           </div>
 
           <div class="col-md-4 text-center">
@@ -62,7 +60,6 @@ nav: index
               <h5 style="font-weight: 500">IITM Research Park</h5>
               {% asset bracket-right.png class="sbac2" alt="" %}
             </div>
-            <!-- <a class="buytic" href="#">Buy Tickets</a> -->
           </div>
 
 
@@ -74,7 +71,6 @@ nav: index
               <h5 style="font-weight: 500">IITM Research Park</h5>
               {% asset bracket-right.png class="sbac2" alt="" %}
             </div>
-            <!-- <a class="buytic" href="#">Buy Tickets</a> -->
           </div>
 
       </div>
