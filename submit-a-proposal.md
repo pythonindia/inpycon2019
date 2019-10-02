@@ -9,7 +9,7 @@ bloglike: true
   <div class="row">
     <div class="col-md-6 light">
       <h3><strong>Devsprint</strong></h3>
-      <p>Closes on 30th Septmeber, 2019</p>
+      <p>Closes on 30th September, 2019</p>
     </div>
     <div class="col-md-6 light">
       <div class="buy-ticket">

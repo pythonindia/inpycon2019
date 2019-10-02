@@ -1,4 +1,3 @@
-<!-- TODO Convert this to be YML Based -->
 <section class="wrapper" style="background: white;" id="tickets">
   {% asset tunnel-white-exit.png alt="" class="tunnel1 bg" %}
   {% asset bluewind.png alt="" class="bluewind bg" style="left: 18%;top: -53px; z-index:9999;" %}
@@ -46,7 +45,7 @@
                       {% if category.sold_out %}
                         <strong style="color:red;">SOLD OUT</strong>
                       {% else %}
-			<a href="https://goo.gl/forms/GdtTebWL7mn3oKtW2" target="_blank" rel="noreferrer noopener" class="dwd-link">NOTIFY ME!</a>
+                        <a href="https://goo.gl/forms/GdtTebWL7mn3oKtW2" target="_blank" rel="noreferrer noopener" class="dwd-link">NOTIFY ME!</a>
                       {% endif %}
                     {% endif %}
                   </td>
@@ -61,7 +60,7 @@
 
   <div class="container ticket-mobile">
     {% for category in site.data.tickets %}
-    {% if category.sold_out == false %}
+      {% if category.sold_out == false %}
         <div class="row wow fadeIn">
           <div class="col-md-12 light">
             <h3><strong>{{category.type}}</strong></h3>
@@ -87,14 +86,21 @@
                 <a href="https://www.townscript.com/e/pycon-india-2019/booking" target="_blank" rel="noreferrer noopener" class="dwd-link">
                   <strong>BUY TICKETS</strong>
                 </a>
-	      {% else %}
-		<a href="https://goo.gl/forms/GdtTebWL7mn3oKtW2" target="_blank" rel="noreferrer noopener" class="dwd-link">NOTIFY ME!</a>
+              {% else %}
+                <a href="https://goo.gl/forms/GdtTebWL7mn3oKtW2" target="_blank" rel="noreferrer noopener" class="dwd-link">NOTIFY ME!</a>
               {% endif %}
             </p>
           </div>
         </div>
       {% endif %}
     {% endfor %}
+
+    <div class="row wow fadeIn">
+      <div class="col-md-12 light">
+        <h3>All tickets have been <strong style="color:red;">sold out</strong>.</h3>
+      </div>
+    </div>
+
     <br>
   </div>
   {% asset tunnel-white-entry.png alt="" class="tunnel2 tunnel4 bg" %}
