@@ -2,7 +2,8 @@
   <nav class="navbar navbar-default">
     <div class="container-fluid">
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+          data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
@@ -15,7 +16,7 @@
           <a class="navbar-brand-1 " style="display: none" href="/2019/">
             {% asset logo-small.png alt="PyCon India 2019 Logo" width="100%" %}
           </a>
-       </div>
+        </div>
       </div>
 
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -23,39 +24,44 @@
           <li {% if page.nav == 'index' %}class="current"{% endif %}><a href="/2019/">Home</a></li>
           <li><a href="/blog/">Blog</a></li>
           <li><a href="/2019/#sponsorship">Sponsorship</a></li>
-	  <li class="dropdown">
-	    <a href="#" class"dropbtn">Facilities&nbsp;&nbsp;{% include icons/down-arrow.svg %}</a>
-	    <div class="dropdown-content">
-	      <a href="/2019/facilities.html#child-care">Child Care</a>
-	      <a href="/2019/facilities.html#quiet-rooms">Quiet Rooms</a>
- 	      <a href="/2019/facilities.html#lactation-room">Lactation Room</a>
-	      <a href="/2019/facilities.html#medical-facility">Medical Facility</a>
-	      <a href="/2019/facilities.html#accessibility">Accessibility</a>
-	    </div>
-	  </li>
-	  <li class="dropdown">
-	    <a href="#" class"dropbtn">Events&nbsp;&nbsp;{% include icons/down-arrow.svg %}</a>
-	    <div class="dropdown-content">
-	      <a href="/2019/index.html#keynotes">Keynotes</a>
-	      <a href="/2019/talks.html">Talks</a>
- 	      <a href="/2019/lightning-talks.html">Lightning Talks</a>
-	      <a href="/2019/poster-session.html">Poster Session</a>
-	      <a href="/2019/open-spaces.html">Open Spaces</a>
-	      <a href="/2019/community-spaces.html">Community Spaces</a>
-	      <a href="/2019/workshops.html">Workshops</a>
-        <a href="/2019/devsprints.html">Devsprints</a>
-        <a href="/2019/pyladies-lunch.html">PyLadies Lunch</a>
-	    </div>
-	  </li>
+
+      	  <li class="dropdown">
+      	    <a href="#" class"dropbtn">Facilities&nbsp;&nbsp;{% include icons/down-arrow.svg %}</a>
+      	    <div class="dropdown-content">
+      	      <a href="/2019/facilities.html#child-care">Child Care</a>
+      	      <a href="/2019/facilities.html#quiet-rooms">Quiet Rooms</a>
+       	      <a href="/2019/facilities.html#lactation-room">Lactation Room</a>
+      	      <a href="/2019/facilities.html#medical-facility">Medical Facility</a>
+      	      <a href="/2019/facilities.html#accessibility">Accessibility</a>
+      	    </div>
+      	  </li>
+
+      	  <li class="dropdown">
+      	    <a href="#" class"dropbtn">Events&nbsp;&nbsp;{% include icons/down-arrow.svg %}</a>
+      	    <div class="dropdown-content">
+      	      <a href="/2019/index.html#keynotes">Keynotes</a>
+      	      <a href="/2019/talks.html">Talks</a>
+       	      <a href="/2019/lightning-talks.html">Lightning Talks</a>
+      	      <a href="/2019/poster-session.html">Poster Session</a>
+      	      <a href="/2019/open-spaces.html">Open Spaces</a>
+      	      <a href="/2019/community-spaces.html">Community Spaces</a>
+      	      <a href="/2019/workshops.html">Workshops</a>
+              <a href="/2019/devsprints.html">Devsprints</a>
+              <a href="/2019/pyladies-lunch.html">PyLadies Lunch</a>
+      	    </div>
+      	  </li>
+
           <li class="dropdown">
             <a href="#" class="dropbtn">About&nbsp;&nbsp;{% include icons/down-arrow.svg %}</a>
             <div class="dropdown-content">
               <a href="/2019/faq.html">FAQ</a>
               <a href="/2019/code-of-conduct.html">Code Of Conduct</a>
               <a href="/2019/reaching-the-venues.html">Reaching the Venues</a>
-	      <a href="/2019/logo.html">Branding</a>
+              <a href="/2019/logo.html">Branding</a>
             </div>
           </li>
+
+          <li {% if page.nav == 'thank-you' %}class="current"{% endif %}><a href="/2019/thank-you/">Thank You</a></li>
         </ul>
       </div>
     </div>
