@@ -137,7 +137,7 @@ touch with the Diversity Chair, Sharmila Gopirajan
 
 In case you are not able to locate a conference volunteer or you would
 prefer to report directly to the Diversity Chair, she can be reached
-at the mobile no. *TBD* and the email address
+at the mobile no. +91-8925760036 and the email address
 [report@in.pycon.org](mailto:report@in.pycon.org).
 
 ## License
