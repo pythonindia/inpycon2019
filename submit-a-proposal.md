@@ -13,7 +13,7 @@ bloglike: true
     </div>
     <div class="col-md-6 light">
       <div class="buy-ticket">
-	<a href="https://in.pycon.org/cfp/devsprint-2019/proposals/" class="dwd-link"><strong>SUBMIT A DEVSPRINT</strong></a>
+        <strong style="color: red">CLOSED</strong>
       </div>
     </div>
   </div>
@@ -25,7 +25,7 @@ bloglike: true
     </div>
     <div class="col-md-6 light">
       <div class="buy-ticket">
-	<a href="https://in.pycon.org/cfp/posters-2019/proposals/" class="dwd-link"><strong>SUBMIT A POSTER</strong></a>
+	      <strong style="color: red">CLOSED</strong>
       </div>
     </div>
   </div>

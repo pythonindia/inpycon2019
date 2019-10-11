@@ -29,7 +29,7 @@ nav: index
             </p>
           </div>
           <div class="text-center pycon-speakers-img dwd-buyticket" style="position: relative;">
-            <a href="/2019/submit-a-proposal.html" class="dwd-link"><strong>Submit A Proposal</strong></a>
+              <strong style="color: red">PROPOSAL SUBMISSION CLOSED</strong>
           </div>
         </div>
       </div>
