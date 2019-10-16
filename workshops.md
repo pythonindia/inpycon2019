@@ -42,7 +42,7 @@ on the second day.
 
   * [Demystifying Docker for Devs](https://in.pycon.org/cfp/workshops-2019/proposals/demystifying-docker-for-devs~e9WPb/)
 
-    - Speakers: Sanchit Balchandani, Mahendra Yadav
+    - Speakers: Sanchit Balchandani, Arun Chaudhary
 
   * [Building, testing and profiling efficient micro-services using Tornado](https://in.pycon.org/cfp/workshops-2019/proposals/building-testing-and-profiling-efficient-micro-services-using-tornado~e9vxa/)
 
