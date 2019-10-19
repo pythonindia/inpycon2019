@@ -1256,3 +1256,7 @@ a {
   }
 }
 
+/* Same in all media */
+#thank-you h3{
+  margin-top: 1.5em;
+}
