@@ -17,7 +17,7 @@
   {% include navbar.html %}
 
   <main role="main" id="main-content" tabindex="-1">
-    <div class="{% if page.bloglike %}blog{% endif %}">
+    <div class="{% if page.bloglike %}blog{% endif %}" id={{ page.nav }}>
       {% if page.bloglike %}<h1><strong>{{page.title}}</strong></h1>{% endif %}
       {{content}}
     </div>
