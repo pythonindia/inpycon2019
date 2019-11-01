@@ -28,8 +28,12 @@ nav: index
               to our announcements</a>.
             </p>
           </div>
+	  
           <div class="text-center pycon-speakers-img dwd-buyticket" style="position: relative;">
-            <a target="_blank" rel="noopener" href="https://pyconindia.zulipchat.com/" class="dwd-link"><strong>Join Us Online</strong></a>
+            <a target="_blank" rel="noopener"
+               href="https://photos.app.goo.gl/RbMp67jSLjr5SrzVA" class="dwd-link">
+               <strong>Photos</strong>
+            </a>
           </div>
         </div>
       </div>
