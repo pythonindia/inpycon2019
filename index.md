@@ -34,7 +34,13 @@ nav: index
                href="https://photos.app.goo.gl/RbMp67jSLjr5SrzVA" class="dwd-link">
                <strong>Photos</strong>
             </a>
+
+            <a target="_blank" rel="noopener"
+               href="https://www.youtube.com/playlist?list=PL6GW05BfqWIfsflQt05LM3FTX6cd7PGps" class="dwd-link">
+               <strong>Videos</strong>
+            </a>
           </div>
+
         </div>
       </div>
     </div>
