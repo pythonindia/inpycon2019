@@ -18,6 +18,7 @@ gem "jekyll", "~> 3.7.2"
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
   gem "jekyll-assets"
+  gem "jekyll-webp"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
